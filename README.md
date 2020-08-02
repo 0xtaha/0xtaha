@@ -1,6 +1,6 @@
-### Hi there 👋
-### My Name is Taha Abdalzez a Computer Engineering Student
-## 🌱 I’m currently learning Data Science
+## Hi there 👋
+## My Name is Taha Abdalzez a Computer Engineering Student
+### 🌱 I’m currently learning Data Science
 
 
 <!--
