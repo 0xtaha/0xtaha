@@ -1,5 +1,5 @@
 ## Hi there 👋
-## My Name is Taha Abdalzez a Computer Engineering Student
+## My Name is Taha Abdalzez i'm a Computer Engineering Student
 ### 🌱 I’m currently learning Data Science
 
 
@@ -8,8 +8,8 @@
 
 Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
+- 🔭 I’m currently working on Computer Enginering Degree
+- 🌱 I’m currently learning Data Science and Probability 
 - 👯 I’m looking to collaborate on ...
 - 🤔 I’m looking for help with ...
 - 💬 Ask me about ...
