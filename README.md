@@ -2,6 +2,7 @@
 ## My Name is Taha Abdalzez i'm a Computer Engineering Student
 #### 🔭 I Just Finished my Computer Engineering degree
 #### 🌱 I Just enterted the Field of Reverse Engineering and Malware Analysis
+#### ⚡ Fun fact: i love coffee
 
 
 <!--
