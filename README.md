@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Taha Abdalzez</h1>
-<h3 align="center">An Intelligent Transportation System | Junior Software Engineer / Malware Analysis</h3>
+<h3 align="center">An Intelligent Transportation System Engineer | Junior Software Engineer / Malware Analysis</h3>
 
 - 🔭 I’m currently working on **Egypt ITS as Field Engineer**
 
