@@ -3,7 +3,7 @@
 
 - 🔭 I’m currently working on **Egypt ITS as Field Engineer**
 
-- 🌱 I’m currently learning **Data Scinece, Malware Analysis, Web Devolopment us**
+- 🌱 I’m currently learning **Data Scinece, Malware Analysis, Web Devolopment**
 
 
 <h3 align="left">Languages and Tools:</h3>
