@@ -1,9 +1,5 @@
 <h1 align="center">Hi 👋, I'm Taha Abdalzez</h1>
-<h3 align="center">Junior Software Engineer</h3>
-
-- 🔭 I’m currently working on **A new Project**
-
-- 🌱 I’m currently learning **Devops,Big Data, Web Devolopment**
+<h3 align="center">Security Software Engineer</h3>
 
 
 <h3 align="left">Languages and Tools:</h3>
