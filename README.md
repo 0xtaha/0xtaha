@@ -1,10 +1,10 @@
 # **Taha Abdelaziz**
 ## Senior Software Engineer  
-Email: [taha.abdalz@gmail.com](mailto:taha.abdalz@gmail.com)  
-Phone: +20168394574  
-LinkedIn: [linkedin.com/in/taha-abdelaziz/](linkedin.com/in/taha-abdelaziz/)  
-Languages: English, Arabic  
-Location: New Cairo, Cairo, Egypt
+Email: [taha.abdalz@gmail.com](mailto:taha.abdalz@gmail.com)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LinkedIn: [linkedin.com/in/taha-abdelaziz/](linkedin.com/in/taha-abdelaziz/)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Phone: +20168394574  
+Languages: English, Arabic 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Location: New Cairo, Cairo, Egypt
 
 ## Profile
 
@@ -126,7 +126,7 @@ Relevant Coursework: Operating Systems, Data Structures & Algorithms, Computer N
 
 ## Certifications
 
-* Zappix Certificate: Hands-on training in telephony automation, IVR development, and conversational AI
+* Zabbix 8.0 Certificate: Hands-on training in telephony automation, IVR development, and conversational AI
 * Preparing for AWS Certified Solutions Architect – Associate and Certified Kubernetes Administrator (CKA)
 
 ## Achievements
