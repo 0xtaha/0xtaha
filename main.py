@@ -32,9 +32,9 @@ def convert_readme_to_pdf(readme_path='README.md', css_path='style.css'):
     """
 
     options = {
-        'margin-top': '20mm',
+        'margin-top': '15mm',
         'margin-right': '15mm',
-        'margin-bottom': '20mm',
+        'margin-bottom': '15mm',
         'margin-left': '15mm',
         'footer-center': '[page]',
         'footer-font-size': '10',

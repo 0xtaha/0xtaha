@@ -1,5 +1,5 @@
 # **Taha Abdelaziz**
-## Senior Software Engineer  
+### Senior Software Engineer  
 Email: [taha.abdalz@gmail.com](mailto:taha.abdalz@gmail.com)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LinkedIn: [linkedin.com/in/taha-abdelaziz/](linkedin.com/in/taha-abdelaziz/)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Phone: +20168394574  
@@ -11,11 +11,25 @@ Senior Software Engineer with 5 years of experience designing, building, and dep
 
 ## Technical Skills
 
-### Programming Languages & Frameworks
+### Software Engineering Principles
+
+* OOP, SOLID, Clean Architecture
+* working with Monolith and microservices
+* Secure coding practices and peer-reviewed development
+* Agile / Scrum methodologies: sprint planning, retrospectives, team collaboration
+
+### Programming Languages & Frameworks & Tools
 
 * Python, Golang, TypeScript, JavaScript, Bash
 * Frameworks: Flask, FastAPI, NestJS, Angular, Node.js
 * Microservices Development, RESTful APIs, WebSocket Communication
+* RDBMS: PostgreSQL, MySQL (schema design, query tuning)
+* NoSQL: MongoDB, Redis (used for session management and caching)
+* ETL & Workflows and Data Pipelines: Apache NiFi, Apache Airflow
+* Distreputed Systems using Celery 
+* Message Brokers: Kafka (real-time data pipelines, pub/sub)
+* Integration with 3rd-party systems: LDAP, SOAP (Thales)
+* Building Authentication services supporting OIDC and SAML protocols using Keycloak
 
 ### DevOps, CI/CD & Automation
 
@@ -23,37 +37,13 @@ Senior Software Engineer with 5 years of experience designing, building, and dep
 * Practices: Infrastructure as Code (IaC), containerized deployments, automated provisioning
 * Containerization: Docker (multi-container apps, service orchestration)
 * Basic Kubernetes exposure
-
-### Event-Driven & Distributed Systems
-
-* Message Brokers: Kafka (real-time data pipelines, pub/sub)
-* ETL & Workflows: Apache Airflow, Celery
-* Integration with 3rd-party systems: LDAP, SOAP (Thales)
+* Operating Systems: Linux (Redhat, Debian)
 
 ### Observability, Logging & Monitoring
 
-* Monitoring Tools: Zabbix, custom dashboards (Angular, ELK Stack)
-* Logging Pipelines: Elastic Stack (Elasticsearch, Logstash, Kibana), Kafka
-* Alerting: Layer 2/3 device observability, sensor-based monitoring
-
-### Infrastructure & System Administration
-
-* Operating Systems: Linux (Ubuntu, CentOS), Windows Server
-* Web Servers & Proxies: Nginx, Apache
-* Access Control: LDAP authentication & user management
-
-### Databases & Data Engineering
-
-* RDBMS: PostgreSQL, MySQL (schema design, query tuning)
-* NoSQL: MongoDB, Redis (used for session management and caching)
-* Data Pipelines: Redshift, Apache NiFi
-
-### Software Engineering Principles
-
-* OOP, SOLID, Clean Architecture
-* Monolith to microservices migration
-* Secure coding practices and peer-reviewed development
-* Agile / Scrum methodologies: sprint planning, retrospectives, team collaboration
+* Monitoring Tools: Zabbix, ELK Stack
+* Logging Pipelines: Elastic Stack, Rsyslog
+* network and traffic monitioring : Nagios
 
 ## Professional Experience
 
@@ -94,6 +84,12 @@ Senior Software Engineer with 5 years of experience designing, building, and dep
 * Challenge: Automating the customer onboarding process
 * Impact: 9/10
 
+**CyberSecure**
+
+* Stack: Flask, celery, redis, postgress
+* Role: Software Engineer
+* Impact: 8/10
+
 **Universal Media Hub**
 
 * Stack: Golang, Nginx, LDAP
@@ -130,5 +126,5 @@ Relevant Coursework: Operating Systems, Data Structures & Algorithms, Computer N
 
 ## Achievements
 
-* **Change Maker Award (Orange Cyberdefense):** For rapid development and deployment of the "CyberSecure" service—cutting client onboarding time by 50%.
-* **Monitoring Platform Excellence (Orange Cyberdefense):** Led development of the division's largest monitoring platform, improving visualization accuracy by 25% and reducing mean time to detection by 30%.
+* **Change Maker Award (Orange Cyberdefense):** For rapid development and deployment of the "CyberSecure".
+* **Monitoring Platform Excellence (Orange Cyberdefense):** worked on the development of the division's largest monitoring platform, improving visualization accuracy by 25% and reducing mean time to detection by 30%.
