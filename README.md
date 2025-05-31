@@ -1,10 +1,9 @@
 # **Taha Abdelaziz**
 ## Senior Software Engineer  
 Email: [taha.abdalz@gmail.com](mailto:taha.abdalz@gmail.com)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LinkedIn: [linkedin.com/in/taha-abdelaziz/](linkedin.com/in/taha-abdelaziz/)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LinkedIn: [linkedin.com/in/taha-abdelaziz/](linkedin.com/in/taha-abdelaziz/)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Phone: +20168394574  
 Languages: English, Arabic 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Location: New Cairo, Cairo, Egypt
 
 ## Profile
 
