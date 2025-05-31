@@ -59,32 +59,32 @@ Senior Software Engineer with 5 years of experience designing, building, and dep
 ## Professional Experience
 
 **Orange Cyberdefense**  
->*Senior Software Engineer*  
+*Senior Software Engineer*  
 *January 2025 – Present*
 
->>* Architected and deployed high-availability microservices for a cybersecurity monitoring platform, enhancing system reliability and accelerating incident triage workflows.
->>* Designed and implemented observability pipelines using Kafka, Logstash, Elasticsearch, and Kibana, reducing time-to-detection by \~30%.
->>* Built and managed CI/CD pipelines using GitLab and Ansible, reducing deployment time by 40%.
->>* Migrated legacy monolith applications to Flask-based microservices, doubling throughput and reducing latency from 450ms to 150ms.
->>* Mentored a team of 3 junior engineers and upheld 95%+ unit test coverage.
+* Architected and deployed high-availability microservices for a cybersecurity monitoring platform, enhancing system reliability and accelerating incident triage workflows.
+* Designed and implemented observability pipelines using Kafka, Logstash, Elasticsearch, and Kibana, reducing time-to-detection by \~30%.
+* Built and managed CI/CD pipelines using GitLab and Ansible, reducing deployment time by 40%.
+* Migrated legacy monolith applications to Flask-based microservices, doubling throughput and reducing latency from 450ms to 150ms.
+* Mentored a team of 3 junior engineers and upheld 95%+ unit test coverage.
 
->*Software Engineer*  
+**Orange Cyberdefense**  
+*Software Engineer*  
 *June 2023 – December 2024*
 
->>* Developed backend services in Python and Golang supporting cybersecurity monitoring for 50+ enterprise clients.
->>* Built scalable monitoring pipelines using ELK Stack, Kafka, and Airflow for proactive threat detection.
->>* Integrated with Cisco and Microsoft partners to deliver OT security analytics.
->>* Automated infrastructure provisioning using Ansible, reducing manual setup by 80%.
->>* Refactored and containerized legacy Django applications with automated testing.
+* Developed backend services in Python and Golang supporting cybersecurity monitoring for 50+ enterprise clients.
+* Built scalable monitoring pipelines using ELK Stack, Kafka, and Airflow for proactive threat detection.
+* Integrated with Cisco and Microsoft partners to deliver OT security analytics.
+* Automated infrastructure provisioning using Ansible, reducing manual setup by 80%.
+* Refactored and containerized legacy Django applications with automated testing.
 
 **Elsewedy Electric**  
->*Junior Software Engineer*  
+*Junior Software Engineer*  
 *January 2022 – May 2023*  
 
->>* Collaborated with UX/UI, QA, and product teams on SaaS features for a cloud analytics platform.
->>* Maintained CI/CD pipelines and integrated ELK and Zabbix for observability.
->>* Created interactive dashboards in Angular/Node.js for real-time KPI tracking.
->>* Managed Docker-based environments and ensured < 2% release rollback rate.
+* Collaborated with UX/UI, QA, and product teams on SaaS features for a cloud analytics platform.
+* Maintained CI/CD pipelines and integrated ELK and Zabbix for observability.
+* Created interactive dashboards in Angular/Node.js for real-time KPI tracking.
 
 ## Projects
 
