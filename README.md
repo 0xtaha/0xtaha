@@ -1,149 +1,135 @@
-# Taha Abdelaziz
+# **Taha Abdelaziz**
+## Senior Software Engineer  
+Email: [taha.abdalz@gmail.com](mailto:taha.abdalz@gmail.com)  
+Phone: +201886633223  
+LinkedIn: [linkedin.com/in/taha-abdelaziz/](linkedin.com/in/taha-abdelaziz/)  
+Languages: English, Arabic  
+Location: New Cairo, Cairo, Egypt
 
-**Senior Software Engineer**  
-📍 New Cairo, Cairo, Egypt  
-📧 taha.abdalz@gmail.com  
-📞 +201886633223  
-[LinkedIn](https://linkedin.com/in/oooooo/)  
+## Profile
 
----
+Senior Software Engineer with 5 years of experience designing, building, and deploying scalable, event-driven systems for cybersecurity and enterprise clients. Proven track record in modernizing legacy platforms, implementing robust CI/CD pipelines, and driving observability initiatives that significantly reduce incident detection time. Passionate about adopting DevOps/DevSecOps practices, leveraging automation and infrastructure-as-code to improve reliability, security, and development velocity.
 
-## 🧑‍💼 Profile
-
-Senior Software Engineer with 5+ years of experience designing, deploying, and scaling event-driven, cloud-native systems for cybersecurity and enterprise platforms. Proven expertise in modernizing legacy systems, automating infrastructure, and implementing DevOps/DevSecOps practices across CI/CD pipelines and observability stacks. Adept at improving platform reliability, incident detection time, and developer productivity. Passionate about secure coding, infrastructure-as-code, and continuous improvement.
-
----
-
-## 🛠️ Technical Skills
+## Technical Skills
 
 ### Programming Languages & Frameworks
-- **Python**, **Golang**, **TypeScript**, **JavaScript**, **Bash**
-- **Frameworks:** Flask, FastAPI, NestJS, Angular, Node.js
-- **Microservices Development**, RESTful APIs, WebSocket Communication
+
+* Python, Golang, TypeScript, JavaScript, Bash
+* Frameworks: Flask, FastAPI, NestJS, Angular, Node.js
+* Microservices Development, RESTful APIs, WebSocket Communication
 
 ### DevOps, CI/CD & Automation
-- **Tools:** GitLab CI/CD, Ansible, Docker, Jenkins
-- **Practices:** Infrastructure as Code (IaC), containerized deployments, automated provisioning
-- **Containerization:** Docker (multi-container apps, service orchestration)
-- **Basic Kubernetes exposure**
+
+* Tools: GitLab CI/CD, Ansible, Docker, Jenkins
+* Practices: Infrastructure as Code (IaC), containerized deployments, automated provisioning
+* Containerization: Docker (multi-container apps, service orchestration)
+* Basic Kubernetes exposure
 
 ### Event-Driven & Distributed Systems
-- **Message Brokers:** Kafka (real-time data pipelines, pub/sub)
-- **ETL & Workflows:** Apache Airflow, Celery
-- **Integration with 3rd-party systems:** LDAP, SOAP (Thales)
+
+* Message Brokers: Kafka (real-time data pipelines, pub/sub)
+* ETL & Workflows: Apache Airflow, Celery
+* Integration with 3rd-party systems: LDAP, SOAP (Thales)
 
 ### Observability, Logging & Monitoring
-- **Monitoring Tools:** Zabbix, custom dashboards (Angular, ELK Stack)
-- **Logging Pipelines:** Elastic Stack (Elasticsearch, Logstash, Kibana), Kafka
-- **Alerting:** Layer 2/3 device observability, sensor-based monitoring
+
+* Monitoring Tools: Zabbix, custom dashboards (Angular, ELK Stack)
+* Logging Pipelines: Elastic Stack (Elasticsearch, Logstash, Kibana), Kafka
+* Alerting: Layer 2/3 device observability, sensor-based monitoring
 
 ### Infrastructure & System Administration
-- **Operating Systems:** Linux (Ubuntu, CentOS), Windows Server
-- **Web Servers & Proxies:** Nginx, Apache
-- **Access Control:** LDAP authentication & user management
+
+* Operating Systems: Linux (Ubuntu, CentOS), Windows Server
+* Web Servers & Proxies: Nginx, Apache
+* Access Control: LDAP authentication & user management
 
 ### Databases & Data Engineering
-- **RDBMS:** PostgreSQL, MySQL (schema design, query tuning)
-- **NoSQL:** MongoDB, Redis (used for session management and caching)
-- **Data Pipelines:** Redshift, Apache NiFi
+
+* RDBMS: PostgreSQL, MySQL (schema design, query tuning)
+* NoSQL: MongoDB, Redis (used for session management and caching)
+* Data Pipelines: Redshift, Apache NiFi
 
 ### Software Engineering Principles
-- OOP, SOLID, Clean Architecture
-- Monolith to microservices migration
-- Secure coding practices and peer-reviewed development
-- Agile / Scrum methodologies: sprint planning, retrospectives, team collaboration
 
----
+* OOP, SOLID, Clean Architecture
+* Monolith to microservices migration
+* Secure coding practices and peer-reviewed development
+* Agile / Scrum methodologies: sprint planning, retrospectives, team collaboration
 
-## 💼 Professional Experience
+## Professional Experience
 
-### **Orange Cyberdefense**  
-**Senior Software Engineer**  
-*Jan 2025 – Present*  
-- Architected and deployed microservices for a cybersecurity monitoring platform, increasing reliability and incident triage speed.  
-- Built observability pipelines (Kafka, Logstash, ELK), reducing mean time to detection by 30%.  
-- Automated infrastructure and deployments using GitLab CI/CD and Ansible, cutting deployment time by 40%.  
-- Migrated legacy applications to Flask-based microservices in Docker, reducing latency by 65%.  
-- Mentored 3 junior engineers, driving 95%+ unit test coverage through code reviews and pairing sessions.  
+**Orange Cyberdefense**
+*Senior Software Engineer*
+*January 2025 – Present*
 
-**Software Engineer**  
-*Jun 2023 – Dec 2024*  
-- Developed scalable backend services (Python, Golang) supporting security analytics for 50+ clients.  
-- Integrated Airflow and Kafka into data pipelines to enable proactive threat detection.  
-- Collaborated with Cisco and Microsoft to deliver advanced OT security modules.  
-- Automated provisioning with Ansible, eliminating 80% of manual infra setup.  
-- Refactored Django-based apps and integrated testing, ensuring zero-downtime rollouts.  
+* Architected and deployed high-availability microservices for a cybersecurity monitoring platform, enhancing system reliability and accelerating incident triage workflows.
+* Designed and implemented observability pipelines using Kafka, Logstash, Elasticsearch, and Kibana, reducing time-to-detection by \~30%.
+* Built and managed CI/CD pipelines using GitLab and Ansible, reducing deployment time by 40%.
+* Migrated legacy monolith applications to Flask-based microservices, doubling throughput and reducing latency from 450ms to 150ms.
+* Mentored a team of 3 junior engineers and upheld 95%+ unit test coverage.
 
----
+*Software Engineer*
+*June 2023 – December 2024*
 
-### **Elsewedy Electric**  
-**Junior Software Engineer**  
-*Jan 2022 – May 2023*  
-- Developed SaaS analytics features in collaboration with UI/UX and QA teams.  
-- Maintained CI/CD (GitLab, Jenkins), integrated monitoring with Zabbix and ELK.  
-- Built Angular-based dashboards for real-time KPIs and performance tracking.  
-- Managed Ubuntu Docker environments with <2% rollback rate.  
+* Developed backend services in Python and Golang supporting cybersecurity monitoring for 50+ enterprise clients.
+* Built scalable monitoring pipelines using ELK Stack, Kafka, and Airflow for proactive threat detection.
+* Integrated with Cisco and Microsoft partners to deliver OT security analytics.
+* Automated infrastructure provisioning using Ansible, reducing manual setup by 80%.
+* Refactored and containerized legacy Django applications with automated testing.
 
----
+**Elsewedy Electric**
+*Junior Software Engineer*
+*January 2022 – May 2023*
 
-## 🚀 Key Projects
+* Collaborated with UX/UI, QA, and product teams on SaaS features for a cloud analytics platform.
+* Maintained CI/CD pipelines and integrated ELK and Zabbix for observability.
+* Created interactive dashboards in Angular/Node.js for real-time KPI tracking.
+* Managed Docker-based environments and ensured < 2% release rollback rate.
 
-### **FIA Web Portal**  
-- **Stack:** Python (Flask), Redis, Thales SOAP  
-- **Challenge:** Automate customer onboarding  
-- **Role:** Senior Software Engineer  
-- **Impact:** Streamlined onboarding process with reusable components; current project phase rated 9/10 in quality and performance
+## Projects
 
-### **Universal Media Hub**  
-- **Stack:** Golang, Nginx, LDAP  
-- **Challenge:** Integrate container-level SFTP access with LDAP group-based permissions  
-- **Role:** Architected, developed, tested system  
-- **Impact:** Delivered a secure, scalable SFTP platform; rated 9/10 in internal reviews
+**FIA Web Portal**
 
-### **EV Charging Platform**  
-- **Stack:** NestJS, Angular, Kafka, MySQL, WebSockets, Docker  
-- **Challenge:** Real-time socket communication with EV chargers, customer/payments flow, B2B access  
-- **Role:** Software Developer  
-- **Impact:** Enabled full-stack EV charging operations; 8/10 internal performance rating  
+* Stack: Thales SOAP, Python (Flask), Redis
+* Role: Senior Software Engineer
+* Challenge: Automating the customer onboarding process
+* Impact: 9/10
 
-### **ITS Observability**  
-- **Stack:** ELK Stack, Kafka, Apache NiFi, Docker, Redshift  
-- **Challenge:** Alerting and scalability for OT network devices  
-- **Role:** Software Developer  
-- **Impact:** Improved sensor alerting accuracy and reduced system load; scored 7.2/10
+**Universal Media Hub**
 
----
+* Stack: Golang, Nginx, LDAP
+* Role: Software Engineer (architecture, development, testing)
+* Challenge: Integrating SFTP access with LDAP groups/users at the container level
+* Impact: 9/10
 
-## 🎓 Education
+**EV Charging Platform**
 
-**Bachelor of Computer Engineering**  
-Shoubra Faculty of Engineering, Banha University  
-*Sep 2016 – May 2021*  
-**GPA:** 3.2 / 4.0  
+* Stack: Node.js (NestJS), Kafka, Angular, MySQL, WebSockets, Docker
+* Role: Software Developer
+* Challenge: Enabling communication with EV systems via WebSockets and building the payment module
+* Impact: 8/10
 
-**Key Courses:** Operating Systems, Algorithms, Networks, Databases, Software Engineering, Cybersecurity
+**ITS Observability**
 
----
+* Stack: Elastic Stack, Kafka, Apache NiFi, Docker, Redshift
+* Role: Software Developer
+* Challenge: Scaling the system and implementing alerting for Layer 2 devices and sensors
+* Impact: 7.2/10
 
-## 📜 Certifications
+## Education
 
-- **Zappix Certificate** – Conversational AI, IVR automation  
-- *AWS Certified Solutions Architect – Associate* *(expected July 2025)*  
-- *Certified Kubernetes Administrator (CKA)* *(expected Q3 2025)*  
+**Bachelor of Computer Engineering**
+Shoubra Faculty of Engineering, Banha University
+September 2016 – May 2021
+GPA: 3.2/4.0
+Relevant Coursework: Operating Systems, Data Structures & Algorithms, Computer Networks, Database Systems, Software Engineering, Cybersecurity Fundamentals
 
----
+## Certifications
 
-## 🏆 Achievements
+* Zappix Certificate: Hands-on training in telephony automation, IVR development, and conversational AI
+* Preparing for AWS Certified Solutions Architect – Associate and Certified Kubernetes Administrator (CKA)
 
-- **Change Maker Award – Orange Cyberdefense**  
-  Built and deployed the “CyberSecure” service, improving client onboarding speed by 50%.  
+## Achievements
 
-- **Monitoring Platform Excellence – Orange Cyberdefense**  
-  Led the development of the division’s largest monitoring platform, improving visualization accuracy by 25% and reducing MTTR by 30%.  
-
----
-
-## 🌐 Languages
-
-- **English** – Fluent  
-- **Arabic** – Native  
+* **Change Maker Award (Orange Cyberdefense):** For rapid development and deployment of the "CyberSecure" service—cutting client onboarding time by 50%.
+* **Monitoring Platform Excellence (Orange Cyberdefense):** Led development of the division's largest monitoring platform, improving visualization accuracy by 25% and reducing mean time to detection by 30%.
