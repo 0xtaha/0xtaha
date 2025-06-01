@@ -1,9 +1,9 @@
 # **Taha Abdelaziz**
 ### Senior Software Engineer  
-Email: [taha.abdalz@gmail.com](mailto:taha.abdalz@gmail.com)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LinkedIn: [linkedin.com/in/taha-abdelaziz/](linkedin.com/in/taha-abdelaziz/)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Phone: +20168394574  
-Languages: English, Arabic 
+Email: [taha.abdalzez26@gmail.com](mailto:taha.abdalzez26@gmail.com)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LinkedIn: [linkedin.com/in/taha-abdelaziz/](https://linkedin.com/in/taha-abdelaziz/)  
+Phone: +20168394574
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Languages: English, Arabic 
 
 ## Profile
 

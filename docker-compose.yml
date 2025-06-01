@@ -3,6 +3,8 @@ version: '3.8'
 services:
   readme-to-pdf:
     build: .
+    environment:
+      - OUTPUT_PDF=Taha_Abdelaziz-Sr.software_engineer.pdf
     volumes:
       - .:/app
     working_dir: /app
