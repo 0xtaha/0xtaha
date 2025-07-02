@@ -26,7 +26,7 @@ Senior Software Engineer with 5 years of experience designing, building, and dep
 * RDBMS: PostgreSQL, MySQL (schema design, query tuning)
 * NoSQL: MongoDB, Redis (used for session management and caching)
 * ETL & Workflows and Data Pipelines: Apache NiFi, Apache Airflow
-* Distreputed Systems using Celery 
+* Distributed Systems using Celery 
 * Message Brokers: Kafka (real-time data pipelines, pub/sub)
 * Integration with 3rd-party systems: LDAP, SOAP (Thales)
 * Building Authentication services supporting OIDC and SAML protocols using Keycloak
