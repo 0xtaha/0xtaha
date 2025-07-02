@@ -34,9 +34,10 @@ Senior Software Engineer with 5 years of experience designing, building, and dep
 ### DevOps, CI/CD & Automation
 
 * Tools: GitLab CI/CD, Ansible, Docker, Jenkins
+* Cloud Environments : GCP, Azure
 * Practices: Infrastructure as Code (IaC), containerized deployments, automated provisioning
 * Containerization: Docker (multi-container apps, service orchestration)
-* Basic Kubernetes exposure
+* Kubernetes exposure
 * Operating Systems: Linux (Redhat, Debian)
 
 ### Observability, Logging & Monitoring
@@ -53,8 +54,8 @@ Senior Software Engineer with 5 years of experience designing, building, and dep
 
 * Architected and deployed high-availability microservices for a cybersecurity monitoring platform, enhancing system reliability and accelerating incident triage workflows.
 * Designed and implemented observability pipelines using Kafka, Logstash, Elasticsearch, and Kibana, reducing time-to-detection by \~30%.
-* Built and managed CI/CD pipelines using GitLab and Ansible, reducing deployment time by 40%.
-* Migrated legacy monolith applications to Flask-based microservices, doubling throughput and reducing latency from 450ms to 150ms.
+* Built and managed CI/CD pipelines using GitLab, docker and Ansible, reducing deployment time by 40%.
+* Migrated legacy monolith applications to microservices, doubling performance and reducing latency from 450ms to 150ms.
 * Mentored a team of 3 junior engineers and upheld 95%+ unit test coverage.
 
 **Orange Cyberdefense**  
@@ -76,6 +77,12 @@ Senior Software Engineer with 5 years of experience designing, building, and dep
 * Created interactive dashboards in Angular/Node.js for real-time KPI tracking.
 
 ## Projects
+
+** SECULOGS **
+
+* Role : Devops / Software Engineer
+* Challange: Automating the Deployment / restructuring and reorganizing the Echosystem system 
+* Impact : 9.5/10
 
 **FIA Web Portal**
 
