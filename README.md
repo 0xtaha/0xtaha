@@ -76,48 +76,6 @@ Senior Software Engineer with 5 years of experience designing, building, and dep
 * Maintained CI/CD pipelines and integrated ELK and Zabbix for observability.
 * Created interactive dashboards in Angular/Node.js for real-time KPI tracking.
 
-## Projects
-
-** SECULOGS **
-
-* Role : Devops / Software Engineer
-* Challange: Automating the Deployment / restructuring and reorganizing the Echosystem system 
-* Impact : 9.5/10
-
-**FIA Web Portal**
-
-* Stack: Thales SOAP, Python (Flask), Redis
-* Role: Senior Software Engineer
-* Challenge: Automating the customer onboarding process
-* Impact: 9/10
-
-**CyberSecure**
-
-* Stack: Flask, celery, redis, postgress
-* Role: Software Engineer
-* Impact: 8/10
-
-**Universal Media Hub**
-
-* Stack: Golang, Nginx, LDAP
-* Role: Software Engineer (architecture, development, testing)
-* Challenge: Integrating SFTP access with LDAP groups/users at the container level
-* Impact: 9/10
-
-**EV Charging Platform**
-
-* Stack: Node.js (NestJS), Kafka, Angular, MySQL, WebSockets, Docker
-* Role: Software Developer
-* Challenge: Enabling communication with EV systems via WebSockets and building the payment module
-* Impact: 8/10
-
-**ITS Observability**
-
-* Stack: Elastic Stack, Kafka, Apache NiFi, Docker, Redshift
-* Role: Software Developer
-* Challenge: Scaling the system and implementing alerting for Layer 2 devices and sensors
-* Impact: 7.2/10
-
 ## Education
 
 **Bachelor of Computer Engineering**
