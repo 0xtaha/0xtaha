@@ -93,7 +93,6 @@ GPA: 3.2/4.0
 
 * Monitoring Tools: Zabbix, ELK Stack
 * Logging Pipelines: Elastic Stack, Rsyslog
-* network and traffic monitioring : Nagios
 
 <!-- ## Certifications
 
