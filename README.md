@@ -87,7 +87,10 @@ Relevant Coursework: Operating Systems, Data Structures & Algorithms, Computer N
 ## Certifications
 
 * Zabbix 8.0 Certificate: Hands-on training in telephony automation, IVR development, and conversational AI
-* Preparing for AWS Certified Solutions Architect – Associate and Certified Kubernetes Administrator (CKA)
+* Preparing for :
+  * AWS Certified Solutions Architect.
+  * Associate and Certified Kubernetes Administrator (CKA)
+  * Certfied Elaticsearch Engineer
 
 ## Achievements
 
