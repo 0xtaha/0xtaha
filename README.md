@@ -7,7 +7,56 @@ Phone: [+20 168 394 574](tel:+20168394574)
 
 ## Profile
 
-Senior Software Engineer with 5 years of experience designing, building, and deploying scalable, event-driven systems for cybersecurity and enterprise clients. Proven track record in modernizing legacy platforms, implementing robust CI/CD pipelines, and driving observability initiatives that significantly reduce incident detection time. Passionate about adopting DevOps/DevSecOps practices, leveraging automation and infrastructure-as-code to improve reliability, security, and development velocity.
+Senior Software Engineer with 5 years of experience designing, building, and deploying scalable, event-driven systems for cybersecurity and enterprise clients. Proven track record in modernizing legacy platforms and driving observability initiatives that significantly reduce incident detection time. Passionate about adopting DevOps practices, leveraging automation and IaC to improve reliability, security, and development velocity.
+
+## Professional Experience
+
+**Orange Cyberdefense**  
+*Senior Software Engineer*  
+*January 2025 – Present*
+
+* Architected and developed robust backend solutions using Python and Go, implementing
+comprehensive cybersecurity services for enterprise-level clients
+* Designed and implemented scalable monitoring platforms leveraging event-driven architectures
+with technologies including ELK Stack (Elasticsearch, Logstash), Kafka, and Apache Airflow
+* Developed comprehensive OT Security monitoring solutions through strategic collaborations
+with key technology partners like Cisco and Microsoft.
+* Engineered advanced CI/CD pipelines and automation tools to streamline development
+workflows, enhancing team productivity and deployment efficiency.
+* Implemented infrastructure management solutions using Ansible, reducing manual configuration
+overhead and ensuring consistent environment deployments.
+* Executed complex data migration, ETL processes, and advanced data analysis projects using
+Python and SQL.
+* Maintained and modernized legacy software systems, successfully migrating applications to
+contemporary platforms while preserving core business functionalities.
+
+**Orange Cyberdefense**  
+*Software Engineer*  
+*June 2023 – December 2024*
+
+* Developed backend services in Python and Golang supporting cybersecurity monitoring for 50+ enterprise clients.
+* Built scalable monitoring pipelines using ELK Stack, Kafka, and Airflow for proactive threat detection.
+* Integrated with Cisco and Microsoft partners to deliver OT security analytics.
+* Automated infrastructure provisioning using Ansible, reducing manual setup by 80%.
+* Refactored and containerized legacy Django applications with automated testing.
+
+<br/><br/>
+<br/><br/>
+
+**Elsewedy Electric**  
+*Junior Software Engineer*  
+*January 2022 – May 2023*  
+
+* Collaborated with UX/UI, QA, and product teams on SaaS features for a cloud analytics platform.
+* Maintained CI/CD pipelines and integrated ELK and Zabbix for observability.
+* Created interactive dashboards in Angular/Node.js for real-time KPI tracking.
+
+## Education
+
+**Bachelor of Computer Engineering**
+Shoubra Faculty of Engineering, Banha University
+September 2016 – May 2021
+GPA: 3.2/4.0
 
 ## Technical Skills
 
@@ -46,51 +95,13 @@ Senior Software Engineer with 5 years of experience designing, building, and dep
 * Logging Pipelines: Elastic Stack, Rsyslog
 * network and traffic monitioring : Nagios
 
-## Professional Experience
-
-**Orange Cyberdefense**  
-*Senior Software Engineer*  
-*January 2025 – Present*
-
-* Architected and deployed high-availability microservices for a cybersecurity monitoring platform, enhancing system reliability and accelerating incident triage workflows.
-* Designed and implemented observability pipelines using Kafka, Logstash, Elasticsearch, and Kibana, reducing time-to-detection by \~30%.
-* Built and managed CI/CD pipelines using GitLab, docker and Ansible, reducing deployment time by 40%.
-* Migrated legacy monolith applications to microservices, doubling performance and reducing latency from 450ms to 150ms.
-* Mentored a team of 3 junior engineers and upheld 95%+ unit test coverage.
-
-**Orange Cyberdefense**  
-*Software Engineer*  
-*June 2023 – December 2024*
-
-* Developed backend services in Python and Golang supporting cybersecurity monitoring for 50+ enterprise clients.
-* Built scalable monitoring pipelines using ELK Stack, Kafka, and Airflow for proactive threat detection.
-* Integrated with Cisco and Microsoft partners to deliver OT security analytics.
-* Automated infrastructure provisioning using Ansible, reducing manual setup by 80%.
-* Refactored and containerized legacy Django applications with automated testing.
-
-**Elsewedy Electric**  
-*Junior Software Engineer*  
-*January 2022 – May 2023*  
-
-* Collaborated with UX/UI, QA, and product teams on SaaS features for a cloud analytics platform.
-* Maintained CI/CD pipelines and integrated ELK and Zabbix for observability.
-* Created interactive dashboards in Angular/Node.js for real-time KPI tracking.
-
-## Education
-
-**Bachelor of Computer Engineering**
-Shoubra Faculty of Engineering, Banha University
-September 2016 – May 2021
-GPA: 3.2/4.0
-Relevant Coursework: Operating Systems, Data Structures & Algorithms, Computer Networks, Database Systems, Software Engineering, Cybersecurity Fundamentals
-
-## Certifications
+<!-- ## Certifications
 
 * Zabbix 8.0 Certificate: Hands-on training in telephony automation, IVR development, and conversational AI
 * Preparing for :
-  * AWS Certified Solutions Architect.
-  * Associate and Certified Kubernetes Administrator (CKA)
-  * Certfied Elaticsearch Engineer
+    * AWS Certified Solutions Architect.
+    * Associate and Certified Kubernetes Administrator (CKA)
+    * Certfied Elaticsearch Engineer -->
 
 ## Achievements
 
