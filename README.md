@@ -80,7 +80,7 @@ GPA: 3.2/4.0
 * Integration with 3rd-party systems: LDAP, SOAP (Thales)
 * Building Authentication services supporting OIDC and SAML protocols using Keycloak
 
-### DevOps, CI/CD & Automation
+### DevOps, SRE
 
 * Tools: GitLab CI/CD, Ansible, Docker, Jenkins
 * Cloud Environments : GCP, Azure
@@ -88,19 +88,20 @@ GPA: 3.2/4.0
 * Containerization: Docker (multi-container apps, service orchestration)
 * Kubernetes exposure
 * Operating Systems: Linux (Redhat, Debian)
-
-### Observability, Logging & Monitoring
-
+* Good Experince with Networks
 * Monitoring Tools: Zabbix, ELK Stack
 * Logging Pipelines: Elastic Stack, Rsyslog
 
-<!-- ## Certifications
+## Certifications
 
-* Zabbix 8.0 Certificate: Hands-on training in telephony automation, IVR development, and conversational AI
-* Preparing for :
+* Zabbix 8.0 Certificate
+* CCNA ( expired 2022 )
+<!-- * Preparing for :
     * AWS Certified Solutions Architect.
     * Associate and Certified Kubernetes Administrator (CKA)
     * Certfied Elaticsearch Engineer -->
+
+<br/><br/>
 
 ## Achievements
 
