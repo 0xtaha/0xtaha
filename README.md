@@ -1,13 +1,13 @@
 # **Taha Abdelaziz**
-### Senior Fullstack Python Developer  
+### Senior Fullstack Engineer  
 Email: [taha.abdalzez26@gmail.com](mailto:taha.abdalzez26@gmail.com)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LinkedIn: [linkedin.com/in/taha-abdelaziz/](https://linkedin.com/in/taha-abdelaziz/)  
 Phone: [+20 1068 394 574](tel:+201068394574)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Languages: English, Arabic 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Languages: English, Arabic 
 
 ## Profile
 
-Senior Fullstack Python Developer with 5+ years of commercial experience in web-based application development and cloud deployment. Proven expertise in building scalable, enterprise-grade solutions using Python frameworks (Django, Flask, FastAPI) and modern frontend technologies. Experienced in international project delivery, microservices architecture, and DevOps practices with Azure/AWS cloud platforms. Strong background in agile methodologies and API development for cybersecurity and enterprise clients.
+Senior Fullstack Engineer with 4+ years of commercial experience in web-based application development and cloud deployment. Proven expertise in building scalable, enterprise-grade solutions using Python frameworks (Django, Flask, FastAPI) and modern frontend technologies. Experienced in international project delivery, microservices architecture, and DevOps practices with Azure/AWS cloud platforms. Strong background in agile methodologies and API development for cybersecurity and enterprise clients.
 
 ## Professional Experience
 
@@ -40,7 +40,7 @@ Senior Fullstack Python Developer with 5+ years of commercial experience in web-
 *Junior Software Engineer / Frontend Developer*  
 *January 2022 – May 2023*  
 
-* **Fullstack Development:** Collaborated with cross-functional teams (UX/UI, QA, Product) to develop SaaS features for cloud analytics platform
+* **Fullstack Development:** Collaborated with cross-functional teams (UX/UI, QA, Product) to develop SaaS features for cloud platforms
 * **Frontend Development:** Created interactive dashboards using Angular and Node.js for real-time KPI tracking and data visualization
 * **CI/CD Maintenance:** Maintained continuous integration pipelines and implemented monitoring solutions using ELK Stack and Zabbix
 * **Agile Participation:** Active participant in scrum ceremonies, contributing to sprint planning and team retrospectives
