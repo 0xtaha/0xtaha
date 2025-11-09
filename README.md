@@ -1,13 +1,13 @@
 # **Taha Abdelaziz**
-### Senior Software Engineer  
+### Senior Backend / DevOps Engineer
 Email: [taha.abdalzez26@gmail.com](mailto:taha.abdalzez26@gmail.com)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LinkedIn: [linkedin.com/in/taha-abdelaziz/](https://linkedin.com/in/taha-abdelaziz/)  
 Phone: [+20 1068 394 574](tel:+201068394574)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Languages: English, Arabic 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Languages: English, Arabic 
 
 ## Profile
 
-Senior Software Engineer with 5 years of experience designing, building, and deploying scalable, event-driven systems for cybersecurity and enterprise clients. Proven track record in modernizing legacy platforms and driving observability initiatives that significantly reduce incident detection time. Passionate about adopting DevOps practices, leveraging automation and IaC to improve reliability, security, and development velocity.
+Results-driven Backend Engineer and DevOps practitioner with 5+ years of experience building, deploying, and securing scalable systems. Skilled in event-driven microservices, Node.js, and cloud infrastructure automation, currently transitioning toward DevSecOps. Known for a strong sense of ownership, systemic thinking, and the ability to take a product from concept to production with pragmatic perfectionism.
 
 ## Professional Experience
 
@@ -15,20 +15,14 @@ Senior Software Engineer with 5 years of experience designing, building, and dep
 *Senior Software Engineer*  
 *January 2025 – Present*
 
-* Architected and developed robust backend solutions using Python and Go, implementing
-comprehensive cybersecurity services for enterprise-level clients
-* Designed and implemented scalable monitoring platforms leveraging event-driven architectures
-with technologies including ELK Stack (Elasticsearch, Logstash), Kafka, and Apache Airflow
-* Developed comprehensive OT Security monitoring solutions through strategic collaborations
-with key technology partners like Cisco and Microsoft.
-* Engineered advanced CI/CD pipelines and automation tools to streamline development
-workflows, enhancing team productivity and deployment efficiency.
-* Implemented infrastructure management solutions using Ansible, reducing manual configuration
-overhead and ensuring consistent environment deployments.
-* Executed complex data migration, ETL processes, and advanced data analysis projects using
-Python and SQL.
-* Maintained and modernized legacy software systems, successfully migrating applications to
-contemporary platforms while preserving core business functionalities.
+* Designed and deployed robust microservices-based backends using Python, Node.js (NestJS) with asynchronous messaging via Kafka and RabbitMQ.
+* Automated CI/CD pipelines for multiple environments using GitLab CI and GitHub Actions, reducing deployment time by 60%.
+* Containerized services with Docker and deployed to Kubernetes clusters on GCP (GKE).
+* Implemented monitoring, alerting, and logging with ELK, Prometheus, and Grafana for system observability.
+* Used Terraform and Ansible to automate infrastructure provisioning and configuration management.
+* Worked closely with security teams to integrate vulnerability scanning and compliance checks into pipelines.
+* Implemented infrastructure management solutions using Ansible and Terraform.
+* Maintained and modernized legacy software systems, successfully migrating applications to contemporary platforms while preserving core business functionalities.
 
 **Orange Cyberdefense**  
 *Software Engineer*  
@@ -40,16 +34,18 @@ contemporary platforms while preserving core business functionalities.
 * Automated infrastructure provisioning using Ansible, reducing manual setup by 80%.
 * Refactored and containerized legacy Django applications with automated testing.
 
-<br/><br/>
-<br/><br/>
-
 **Elsewedy Electric**  
 *Junior Software Engineer*  
 *January 2022 – May 2023*  
 
-* Collaborated with UX/UI, QA, and product teams on SaaS features for a cloud analytics platform.
+* Developed and maintained backend services using Nest.JS .
 * Maintained CI/CD pipelines and integrated ELK and Zabbix for observability.
 * Created interactive dashboards in Angular/Node.js for real-time KPI tracking.
+
+### Notable Contributions:
+
+* Led the infrastructure setup for ITS Observability, implementing full-stack observability from ingestion to dashboard.
+* Introduced IaC standards across projects, improving reproducibility and cost control on GCP.
 
 ## Education
 
@@ -58,50 +54,23 @@ Shoubra Faculty of Engineering, Banha University
 September 2016 – May 2021
 GPA: 3.2/4.0
 
-## Technical Skills
+## Skills
 
-### Software Engineering Principles
-
-* OOP, SOLID, Clean Architecture
-* working with Monolith and microservices
-* Secure coding practices and peer-reviewed development
-* Agile / Scrum methodologies: sprint planning, retrospectives, team collaboration
-
-### Programming Languages & Frameworks & Tools
-
-* Python, Golang, TypeScript, JavaScript, Bash
-* Frameworks: Flask, FastAPI, NestJS, Angular, Node.js
-* Microservices Development, RESTful APIs, WebSocket Communication
-* RDBMS: PostgreSQL, MySQL (schema design, query tuning)
-* NoSQL: MongoDB, Redis (used for session management and caching)
-* ETL & Workflows and Data Pipelines: Apache NiFi, Apache Airflow
-* Distributed Systems using Celery 
-* Message Brokers: Kafka (real-time data pipelines, pub/sub)
-* Integration with 3rd-party systems: LDAP, SOAP (Thales)
-* Building Authentication services supporting OIDC and SAML protocols using Keycloak
-
-### DevOps, SRE
-
-* Tools: GitLab CI/CD, Ansible, Docker, Jenkins
-* Cloud Environments : GCP, Azure
-* Practices: Infrastructure as Code (IaC), containerized deployments, automated provisioning
-* Containerization: Docker (multi-container apps, service orchestration)
-* Kubernetes exposure
-* Operating Systems: Linux (Redhat, Debian)
-* Good Experince with Networks
-* Monitoring Tools: Zabbix, ELK Stack
-* Logging Pipelines: Elastic Stack, Rsyslog
+* Backend Engineering: Node.js (Express, NestJS), TypeScript, Python (Flask, FastAPI ).
+* Event-Driven Systems: Kafka, RabbitMQ, GCP Pub/Sub, Saga patterns.
+* Microservices Architecture: Design, orchestration, distributed systems troubleshooting.
+* Cloud & DevOps: GCP (GKE, Cloud Run, Cloud SQL, Cloud Functions), Docker, Kubernetes.
+* Infrastructure as Code: Terraform, Ansible.
+* CI/CD: GitHub Actions, GitLab CI.
+* Observability: Prometheus, ELK Stack, Grafana, OpenTelemetry.
+* Security: OIDC, OAuth2, JWT.
+* Databases: PostgreSQL, Redis, MongoDB.
+* Scripting & Automation: Python, Bash.
 
 ## Certifications
 
 * Zabbix 8.0 Certificate
 * CCNA ( expired 2022 )
-<!-- * Preparing for :
-    * AWS Certified Solutions Architect.
-    * Associate and Certified Kubernetes Administrator (CKA)
-    * Certfied Elaticsearch Engineer -->
-
-<br/><br/>
 
 ## Achievements
 
