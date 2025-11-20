@@ -15,14 +15,15 @@ Results-driven Backend Engineer and DevOps practitioner with 5+ years of experie
 *Senior Software Engineer*  
 *January 2025 – Present*
 
-* Designed and deployed robust microservices-based backends using Python, Node.js (NestJS) with asynchronous messaging via Kafka and RabbitMQ.
-* Automated CI/CD pipelines for multiple environments using GitLab CI and GitHub Actions, reducing deployment time by 60%.
-* Containerized services with Docker and deployed to Kubernetes clusters on GCP (GKE).
-* Implemented monitoring, alerting, and logging with ELK, Prometheus, and Grafana for system observability.
+* Designed and deployed scalable and robust microservices-based backends using Python, Node.js (NestJS).
+* Automated CI/CD pipelines for multiple environments using GitLab CI and GitHub Actions.
+* Containerized services with Docker and deployed to Kubernetes clusters.
+* Implemented monitoring, alerting, and logging with ELK, Prometheus, and Grafana for observability.
 * Used Terraform and Ansible to automate infrastructure provisioning and configuration management.
-* Worked closely with security teams to integrate vulnerability scanning and compliance checks into pipelines.
+* Worked closely with security engineering teams on security basesd products.
 * Implemented infrastructure management solutions using Ansible and Terraform.
 * Maintained and modernized legacy software systems, successfully migrating applications to contemporary platforms while preserving core business functionalities.
+* Team leadership and mentoring junior engineers and work collaboratively in a team environment
 
 **Orange Cyberdefense**  
 *Software Engineer*  
@@ -56,16 +57,20 @@ GPA: 3.2/4.0
 
 ## Skills
 
-* Backend Engineering: Node.js (Express, NestJS), TypeScript, Python (Flask, FastAPI ).
-* Event-Driven Systems: Kafka, RabbitMQ, GCP Pub/Sub, Saga patterns.
-* Microservices Architecture: Design, orchestration, distributed systems troubleshooting.
-* Cloud & DevOps: GCP (GKE, Cloud Run, Cloud SQL, Cloud Functions), Docker, Kubernetes.
-* Infrastructure as Code: Terraform, Ansible.
-* CI/CD: GitHub Actions, GitLab CI.
-* Observability: Prometheus, ELK Stack, Grafana, OpenTelemetry.
-* Security: OIDC, OAuth2, JWT.
-* Databases: PostgreSQL, Redis, MongoDB.
-* Scripting & Automation: Python, Bash.
+* Experience building large-scale distributed systems
+* Strong Experince with Monitoring and alerting using Prometheus, ELK Stack, Grafana.
+* Experience in cloud computing platforms, especially AWS
+* Strong background building scalable web applications in Python
+* Experience in Microservices Architecture.
+* Strong background in building Event-Driven Systems using Kafka, RabbitMQ, GCP Pub/Sub
+* Experience with cloud infrastructure, such as AWS, GCP, or Azure
+* Ability to automate deployments via CI/CD pipelines
+* Experience with building SaaS products
+* Knowledge of web security concepts and technologies related to access control or email-related field
+* Knowledge of DevOps tools and practices (CI/CD, Infrastructure as Code using Terraform, Ansible)
+* Knowledge of Linux and Unix-like environments
+* Knowledge of Databases design and preformance.
+* Scripting & Automation using Python, Bash.
 
 ## Certifications
 
@@ -74,5 +79,5 @@ GPA: 3.2/4.0
 
 ## Achievements
 
-* **Change Maker Award (Orange Cyberdefense):** For rapid development and deployment of the "CyberSecure".
+* **Change Maker Award (Orange Cyberdefense):** For rapid development and deployment of the "CyberSecure initiative".
 * **Monitoring Platform Excellence (Orange Cyberdefense):** worked on the development of the division's largest monitoring platform, improving visualization accuracy by 25% and reducing mean time to detection by 30%.
