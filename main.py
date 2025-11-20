@@ -36,8 +36,6 @@ def convert_readme_to_pdf(readme_path='README.md', css_path='style.css'):
         'margin-right': '15mm',
         'margin-bottom': '15mm',
         'margin-left': '15mm',
-        'footer-center': '[page]',
-        'footer-font-size': '10',
     }
 
     pdfkit.from_string(html, output_path, configuration=config, options=options)

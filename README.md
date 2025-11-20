@@ -15,26 +15,29 @@ Results-driven Backend Engineer and DevOps practitioner with 5+ years of experie
 *Senior Software Engineer*  
 *January 2025 – Present*
 
+* Software development based on high-level requirements: estimating, developing, code review, performance optimization, documentation
 * Designed and deployed scalable and robust microservices-based backends using Python, Node.js (NestJS).
 * Automated CI/CD pipelines for multiple environments using GitLab CI and GitHub Actions.
-* Containerized services with Docker and deployed to Kubernetes clusters.
 * Implemented monitoring, alerting, and logging with ELK, Prometheus, and Grafana for observability.
 * Used Terraform and Ansible to automate infrastructure provisioning and configuration management.
-* Worked closely with security engineering teams on security basesd products.
-* Implemented infrastructure management solutions using Ansible and Terraform.
 * Maintained and modernized legacy software systems, successfully migrating applications to contemporary platforms while preserving core business functionalities.
-* Team leadership and mentoring junior engineers and work collaboratively in a team environment
+* Collaborate with Design, Product Management and Customer Management teams to continuously improve the product.
+* Support the team by actively participating in discussions and reviewing others’ code.
+* Improve team synergy and mentor junior engineers.
 
 **Orange Cyberdefense**  
 *Software Engineer*  
 *June 2023 – December 2024*
 
 * Developed backend services in Python and Golang supporting cybersecurity monitoring for 50+ enterprise clients.
+* Ensure high quality deliverables through CI/CD pipelines, tests, and documentation
 * Built scalable monitoring pipelines using ELK Stack, Kafka, and Airflow for proactive threat detection.
-* Integrated with Cisco and Microsoft partners to deliver OT security analytics.
-* Automated infrastructure provisioning using Ansible, reducing manual setup by 80%.
-* Refactored and containerized legacy Django applications with automated testing.
+* Worked closely with security engineering teams on security basesd products.
+* Build secure, scalable integrations with broker tooling (email, document systems, CRMs, AMS).
+* Implemented infrastructure management solutions using Ansible and Terraform.
 
+
+<br>
 **Elsewedy Electric**  
 *Junior Software Engineer*  
 *January 2022 – May 2023*  
