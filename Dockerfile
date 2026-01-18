@@ -1,15 +1,27 @@
-FROM python:3.10-slim
+FROM python:3.14-slim
 
-# Install dependencies
+# Install dependencies including wget
 RUN apt-get update && apt-get install -y \
-    wkhtmltopdf \
+    wget \
     libxrender1 \
     libxext6 \
     libfontconfig1 \
+    fontconfig \
+    libjpeg62-turbo \
+    libpng16-16 \
+    libx11-6 \
+    libxcb1 \
+    xfonts-75dpi \
+    xfonts-base \
     && rm -rf /var/lib/apt/lists/*
 
+# Install wkhtmltopdf for Debian 12 (Bookworm)
+RUN wget https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6.1-3/wkhtmltox_0.12.6.1-3.bookworm_amd64.deb && \
+    apt-get update && \
+    apt install -y ./wkhtmltox_0.12.6.1-3.bookworm_amd64.deb && \
+    rm wkhtmltox_0.12.6.1-3.bookworm_amd64.deb && \
+    rm -rf /var/lib/apt/lists/*
 
-RUN ln -s $(which wkhtmltopdf) /usr/local/bin/wkhtmltopdf
 # Set working directory
 WORKDIR /app
 
