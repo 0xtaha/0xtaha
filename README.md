@@ -5,98 +5,90 @@ Email: [taha.abdalzez26@gmail.com](mailto:taha.abdalzez26@gmail.com)
 Phone: [+20 1068 394 574](tel:+201068394574)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Languages: English, Arabic 
 
+---
+
 ## Profile
 
-Senior Fullstack Engineer with 4+ years of commercial experience in web-based application development and cloud deployment. Proven expertise in building scalable, enterprise-grade solutions using Python frameworks (Django, Flask, FastAPI) and modern frontend technologies. Experienced in international project delivery, microservices architecture, and DevOps practices with Azure/AWS cloud platforms. Strong background in agile methodologies and API development for cybersecurity and enterprise clients.
+Fullstack Developer with 4+ years of commercial experience building scalable, AI-enabled web applications and rapid prototypes for enterprise clients. Proven expertise in architecting end-to-end solutions using modern frameworks, RESTful API design, and cloud deployment (Azure/AWS). Known for strong ownership mindset, exceptional stakeholder communication, and ability to deliver production-ready MVPs in fast-paced, iterative environments. Native Arabic speaker with fluent English.
 
 ## Professional Experience
 
 **Orange Cyberdefense**  
-*Senior Software Engineer / Fullstack Python Developer*  
+*Senior Fullstack Developer*  
 *January 2025 – Present*
 
-* **Fullstack Development:** Architected and developed comprehensive web applications using Python (Django, Flask, FastAPI) with modern frontend frameworks, serving 50+ enterprise clients
-* **Cloud Deployment:** Successfully deployed and managed web applications on Azure and AWS platforms, implementing scalable cloud-based solutions for cybersecurity services
-* **API Development:** Designed and implemented RESTful APIs and web services, integrating with enterprise systems including SOAP services and third-party platforms (Cisco, Microsoft)
-* **Frontend Excellence:** Built responsive single-page applications using Angular, JavaScript, HTML5, and CSS3 for real-time monitoring dashboards and analytics platforms
-* **Microservices Architecture:** Developed event-driven microservices using Python and Go, implementing comprehensive observability solutions with ELK Stack and Kafka
-* **Database Management:** Optimized SQL queries and designed database schemas for PostgreSQL and MySQL, implemented NoSQL solutions with MongoDB and Redis
-* **CI/CD Implementation:** Engineered automated deployment pipelines using GitLab CI/CD, Docker containerization, and infrastructure-as-code with Ansible
-* **International Collaboration:** Successfully delivered projects in international teams, working with technology partners across different time zones
-* **Agile Leadership:** Led sprint planning and retrospectives, mentoring junior developers in clean code practices and SOLID principles
+* Architected and delivered fullstack web applications from concept to production, supporting 50+ enterprise clients with rapid PoC/MVP cycles.
+* Designed and implemented RESTful APIs powering AI-enabled analytics platforms, integrating with ML-based services and third-party systems.
+* Built responsive, data-heavy dashboards using Angular and Python backends (Django, Flask, FastAPI), processing real-time data streams via Kafka.
+* Deployed and managed applications on Azure and AWS platforms with automated CI/CD pipelines using GitLab CI, Docker, and Ansible.
+* Optimized application performance and accessibility, ensuring cross-browser compatibility and responsive design.
+* Developed microservices-based backends using Python and Go, implementing event-driven architectures for distributed systems.
+* Implemented comprehensive observability solutions using ELK Stack, Prometheus, and Grafana for production monitoring.
+* Collaborated with UI/UX designers, product stakeholders, and international teams to deliver features in short, iterative sprints.
+* Led code reviews and mentored junior developers in clean code practices, API design patterns, and modern web development.
+* Optimized database queries and schema design for PostgreSQL and MySQL, implemented caching strategies with Redis.
 
 **Orange Cyberdefense**  
-*Software Engineer / Python Developer*  
+*Fullstack Developer*  
 *June 2023 – December 2024*
 
-* **Web Application Development:** Built scalable web-based monitoring solutions using Python frameworks with Angular frontends, supporting real-time threat detection for enterprise clients
-* **API Integration:** Developed and consumed RESTful APIs for cybersecurity analytics, integrating with partner systems and third-party security tools
-* **Cloud Services:** Deployed and maintained applications on cloud platforms, implementing automated scaling and monitoring solutions
-* **Database Optimization:** Designed and optimized database structures, implemented efficient ETL processes using Python and SQL
-* **Testing Excellence:** Implemented comprehensive unit testing frameworks, achieving high code coverage and maintaining quality standards
-* **Legacy Modernization:** Successfully migrated Django applications to containerized environments, improving performance and maintainability
+* Built scalable monitoring solutions using Python frameworks with Angular frontends for real-time cybersecurity analytics.
+* Developed and consumed RESTful APIs for data integration, implementing secure authentication mechanisms (OIDC, SAML).
+* Designed and optimized database structures, implemented efficient ETL processes for large-scale data transformation using Apache Airflow.
+* Migrated legacy Django applications to containerized environments, improving performance by 30% and reducing deployment time.
+* Implemented comprehensive unit testing frameworks, achieving high code coverage and maintaining quality standards.
+* Performed performance debugging and optimization across full stack, addressing frontend rendering and backend processing bottlenecks.
+* Integrated applications with enterprise systems including LDAP, third-party security platforms, and message brokers (Kafka, RabbitMQ).
+
+<br>
 
 **Elsewedy Electric**  
-*Junior Software Engineer / Frontend Developer*  
+*Fullstack Developer*  
 *January 2022 – May 2023*  
 
-* **Fullstack Development:** Collaborated with cross-functional teams (UX/UI, QA, Product) to develop SaaS features for cloud platforms
-* **Frontend Development:** Created interactive dashboards using Angular and Node.js for real-time KPI tracking and data visualization
-* **CI/CD Maintenance:** Maintained continuous integration pipelines and implemented monitoring solutions using ELK Stack and Zabbix
-* **Agile Participation:** Active participant in scrum ceremonies, contributing to sprint planning and team retrospectives
+* Developed fullstack features for cloud-based SaaS platforms, collaborating with cross-functional teams (UX/UI, QA, Product).
+* Created interactive data visualization dashboards using Angular and Node.js for real-time KPI tracking and business intelligence.
+* Implemented responsive, accessible UI components following design system guidelines and modern CSS methodologies.
+* Maintained CI/CD pipelines and integrated ELK Stack and Zabbix for production observability.
+* Actively participated in agile ceremonies, contributing to sprint planning, retrospectives, and continuous improvement.
+
+### Notable Contributions:
+
+* **Change Maker Award (Orange Cyberdefense):** Recognized for rapid fullstack development and deployment of the "CyberSecure" platform, delivering from requirements to production in 8-week sprint cycle.
+* **AI-Powered Analytics Platform:** Led development of division's largest web-based monitoring platform integrating ML-based threat detection, improving visualization accuracy by 25% and reducing mean time to detection by 30%.
+* **Performance Optimization Leadership:** Achieved 40% improvement in application load times through frontend optimization, lazy loading strategies, and backend query tuning.
 
 ## Education
 
-**Bachelor of Computer Engineering**
-Shoubra Faculty of Engineering, Banha University
-September 2016 – May 2021
+**Bachelor of Computer Engineering**  
+Shoubra Faculty of Engineering, Banha University  
+September 2016 – May 2021  
 GPA: 3.2/4.0
 
-## Technical Skills
+## Skills
 
-### **Core Fullstack Technologies**
-* **Python Frameworks:** Django, Flask, FastAPI (5+ years commercial experience)
-* **Frontend Technologies:** Angular, JavaScript, TypeScript, HTML5, CSS3, Node.js
-* **Web Development:** Responsive design, single-page applications, progressive web apps
-* **APIs & Web Services:** RESTful APIs, WebSocket communication, SOAP integration
-
-### **Cloud & DevOps**
-* **Cloud Platforms:** Azure, AWS (application deployment and management)
-* **Containerization:** Docker, Kubernetes exposure
-* **CI/CD:** GitLab CI/CD, Jenkins, automated deployment pipelines
-* **Infrastructure:** Ansible, Infrastructure as Code (IaC)
-
-### **Database & Data Management**
-* **SQL Databases:** PostgreSQL, MySQL (schema design, query optimization)
-* **NoSQL:** MongoDB, Redis (caching, session management)
-* **Data Processing:** ETL pipelines, Apache Airflow, Apache NiFi
-
-### **Software Engineering**
-* **Architecture:** Microservices, event-driven systems, clean architecture
-* **Methodologies:** Agile/Scrum, OOP, SOLID principles, secure coding practices
-* **Testing:** Unit testing, automated testing frameworks, test-driven development
-* **Version Control:** Git, source code management, collaborative development
-
-### **Integration & Monitoring**
-* **Message Brokers:** Kafka (pub/sub, real-time data pipelines)
-* **Monitoring:** ELK Stack, Zabbix, observability solutions
-* **Authentication:** OIDC, SAML protocols, Keycloak integration
-* **Enterprise Systems:** LDAP integration, third-party API consumption
+* **Frontend Development:** Angular, JavaScript, TypeScript, HTML5, CSS3, responsive design, SPA architecture, component-based UI development
+* **Backend Development:** Python (Django, Flask, FastAPI), Node.js, RESTful API design and architecture, GraphQL exposure, microservices patterns
+* **API & Integration:** RESTful API design, WebSocket communication, SOAP integration, API security, authentication (OIDC, SAML)
+* **Cloud & DevOps:** Azure (App Service, Static Web Apps), AWS, Docker, Kubernetes exposure, GitLab CI/CD, Jenkins, automated deployments
+* **Database & Performance:** PostgreSQL, MySQL, MongoDB, Redis, query optimization, schema design, performance debugging, caching strategies
+* **Data & AI Integration:** Kafka for real-time data streaming, Apache Airflow, ETL pipelines, ELK Stack, data-heavy interfaces (tables, charts, filters)
+* **Engineering Practices:** Agile/Scrum methodologies, rapid prototyping, iterative delivery, test-driven development, code reviews, accessibility best practices (WCAG awareness)
+* **Monitoring & Observability:** ELK Stack, Prometheus, Grafana, Zabbix, application performance monitoring
+* **Infrastructure & Automation:** Ansible, Infrastructure as Code, containerization, CI/CD pipeline engineering
+* **Cross-Browser Compatibility:** Performance optimization, responsive design, progressive web apps
+* **Collaboration Tools:** Git version control, collaborative development, stakeholder communication, technical documentation
 
 ## Certifications
 
-* **Zabbix 8.0 Certificate** (Current)
-* **CCNA** (Networking fundamentals - expired 2022)
-
-## Achievements
-
-* **Change Maker Award (Orange Cyberdefense):** Recognized for rapid fullstack development and deployment of the "CyberSecure" web platform
-* **Monitoring Platform Excellence (Orange Cyberdefense):** Led development of the division's largest web-based monitoring platform, improving visualization accuracy by 25% and reducing mean time to detection by 30%
-* **International Project Success:** Successfully delivered multiple projects in international teams, demonstrating strong cross-cultural communication and collaboration skills
+* Zabbix 8.0 Certificate (Current)
+* CCNA – Networking Fundamentals (expired 2022)
 
 ## Additional Qualifications
 
-* **Strong English Communication:** Proven experience in international project environments
-* **Team Leadership:** Experience mentoring junior developers and leading technical discussions
-* **Client Interaction:** Direct experience working with enterprise clients and stakeholders
-* **Continuous Learning:** Actively pursuing AWS and Kubernetes certifications to enhance cloud expertise
+* **Bilingual Professional:** Native Arabic speaker with fluent English – ideal for Arabic interface localization and international teams
+* **Ownership Mindset:** Proven track record of end-to-end feature ownership from design through deployment
+* **Fast-Paced Delivery:** Thrives in rapid prototyping environments, delivering MVPs and PoCs under tight deadlines
+* **Stakeholder Communication:** Exceptional communication skills with both technical and non-technical stakeholders
+* **Problem-Solving:** Demonstrated ability to quickly unblock challenges and propose pragmatic, scalable solutions
+* **International Collaboration:** Successfully delivered multiple projects in distributed teams across different time zones
