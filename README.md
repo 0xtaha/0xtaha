@@ -1,5 +1,5 @@
 # **Taha Abdelaziz**
-### Senior Backend / DevOps Engineer
+### Senior Platform Engineer
 Email: [taha.abdalzez26@gmail.com](mailto:taha.abdalzez26@gmail.com)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LinkedIn: [linkedin.com/in/taha-abdelaziz/](https://linkedin.com/in/taha-abdelaziz/)  
 Phone: [+20 1068 394 574](tel:+201068394574)
@@ -12,7 +12,7 @@ Results-driven Backend Engineer and DevOps practitioner with 5+ years of experie
 ## Professional Experience
 
 **Orange Cyberdefense**  
-*Senior Software Engineer*  
+*Senior Platform Engineer*  
 *January 2025 – Present*
 
 * Software development based on high-level requirements: estimating, developing, code review, performance optimization, documentation
