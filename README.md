@@ -7,7 +7,7 @@ Phone: [+20 1068 394 574](tel:+201068394574)
 
 ## Profile
 
-Results-driven Senior Software Engineer with 5+ years of experience engineering scalable Distributed Systems and automating infrastructure. Specialized in building high-throughput backend services using Golang and Python, with expertise in docker, Kubernetes, Terraform, and Observability. Proven track record of designing secure, event-driven microservices for enterprise cybersecurity environments. Strong foundation in Networking (TCP/IP) and Multicloud architectures (Azure/GCP).
+Results-driven Senior Software Engineer with 5+ years of experience engineering scalable Distributed Systems and automating infrastructure. Specialized in building high-throughput backend services using Python and Golang, with expertise in docker, Kubernetes, Terraform, and Observability. Proven track record of designing secure, event-driven microservices for enterprise cybersecurity environments. Strong foundation in Networking (TCP/IP) and Multicloud architectures (Azure/GCP).
 
 ## Professional Experience
 
