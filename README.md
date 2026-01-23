@@ -1,5 +1,5 @@
 # **Taha Abdelaziz**
-### Senior Platform Engineer
+### Senior Software & Infrastructure Engineer
 Email: [taha.abdalzez26@gmail.com](mailto:taha.abdalzez26@gmail.com)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LinkedIn: [linkedin.com/in/taha-abdelaziz/](https://linkedin.com/in/taha-abdelaziz/)  
 Phone: [+20 1068 394 574](tel:+201068394574)
@@ -7,19 +7,20 @@ Phone: [+20 1068 394 574](tel:+201068394574)
 
 ## Profile
 
-Results-driven Backend Engineer and DevOps practitioner with 5+ years of experience building, deploying, and securing scalable systems. Skilled in event-driven microservices, Node.js, and cloud infrastructure automation, currently transitioning toward DevSecOps. Known for a strong sense of ownership, systemic thinking, and the ability to take a product from concept to production with pragmatic perfectionism.
+Results-driven Senior Software Engineer with 5+ years of experience engineering scalable Distributed Systems and automating infrastructure. Specialized in building high-throughput backend services using Golang and Python, with expertise in docker, Kubernetes, Terraform, and Observability. Proven track record of designing secure, event-driven microservices for enterprise cybersecurity environments. Strong foundation in Networking (TCP/IP) and Multicloud architectures (Azure/GCP).
 
 ## Professional Experience
 
 **Orange Cyberdefense**  
-*Senior Platform Engineer*  
+*Senior Software Engineer*
 *January 2025 – Present*
 
+* Focused on montioring solutions, Infrastructure Automation & Scalable Backend Architecture
+* Architected and provisioned secure environments using Terraform and Ansible.
 * Software development based on high-level requirements: estimating, developing, code review, performance optimization, documentation
-* Designed and deployed scalable and robust microservices-based backends using Python, Node.js (NestJS).
+* Designed and deployed scalable and robust microservices-based backends using Python, Golang.
 * Automated CI/CD pipelines for multiple environments using GitLab CI and GitHub Actions.
 * Implemented monitoring, alerting, and logging with ELK, Prometheus, and Grafana for observability.
-* Used Terraform and Ansible to automate infrastructure provisioning and configuration management.
 * Maintained and modernized legacy software systems, successfully migrating applications to contemporary platforms while preserving core business functionalities.
 * Collaborate with Design, Product Management and Customer Management teams to continuously improve the product.
 * Support the team by actively participating in discussions and reviewing others’ code.
@@ -29,11 +30,11 @@ Results-driven Backend Engineer and DevOps practitioner with 5+ years of experie
 *Software Engineer*  
 *June 2023 – December 2024*
 
-* Developed backend services in Python and Golang supporting cybersecurity monitoring for 50+ enterprise clients.
+* Developed backend services in Python and Golang supporting cybersecurity monitoring for large number of enterprise clients.
 * Ensure high quality deliverables through CI/CD pipelines, tests, and documentation
 * Built scalable monitoring pipelines using ELK Stack, Kafka, and Airflow for proactive threat detection.
 * Worked closely with security engineering teams on security basesd products.
-* Build secure, scalable integrations with broker tooling (email, document systems, CRMs, AMS).
+* Build secure, scalable integrations.
 * Implemented infrastructure management solutions using Ansible and Terraform.
 
 
