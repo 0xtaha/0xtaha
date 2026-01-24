@@ -1,88 +1,71 @@
-# **Taha Abdelaziz**
-### Senior Software Engineer
-Email: [taha.abdalzez26@gmail.com](mailto:taha.abdalzez26@gmail.com)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LinkedIn: [linkedin.com/in/taha-abdelaziz/](https://linkedin.com/in/taha-abdelaziz/)  
-Phone: [+20 1068 394 574](tel:+201068394574)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Languages: English, Arabic 
+# Taha Abdelaziz
+**Senior Software Engineer**
+Cairo, Egypt
+[taha.abdalzez26@gmail.com](mailto:taha.abdalzez26@gmail.com) | [+20 1068 394 574](tel:+201068394574)
+[linkedin.com/in/taha-abdelaziz](https://linkedin.com/in/taha-abdelaziz/) | [github.com/0xtaha](https://github.com/0xtaha/)
 
 ## Profile
 
-Results-driven Senior Software Engineer with 5+ years of experience engineering scalable Distributed Systems and automating infrastructure. Specialized in building high-throughput backend services using Python and Golang, with expertise in docker, Kubernetes, Terraform, and Observability. Proven track record of designing secure, event-driven microservices for enterprise cybersecurity environments. Strong foundation in Networking (TCP/IP) and architectures.
+Results-driven Senior Software Engineer with 4+ years of experience engineering scalable Distributed Systems and automating infrastructure. Specialized in building high-throughput backend services using Python and Golang, with expertise in Docker, Kubernetes, Terraform, Ansible, and Observability. Proven track record of designing secure, event-driven microservices for enterprise cybersecurity environments with a strong foundation in Networking (TCP/IP) and architectures.
 
 ## Professional Experience
 
-**Orange Cyberdefense**  
-*Senior Software Engineer*
-*January 2025 – Present*
+**Orange Cyberdefense**
+*Senior Software Engineer* | *January 2025 – Present*
 
-* Focused on montioring solutions, Infrastructure Automation & Scalable Backend Architecture
-* Architected and provisioned secure environments using Terraform and Ansible.
-* Software development based on high-level requirements: estimating, developing, code review, performance optimization, documentation
-* Designed and deployed scalable and robust microservices-based backends using Python, Golang.
-* Automated CI/CD pipelines for multiple environments using GitLab CI and GitHub Actions.
-* Implemented monitoring, alerting, and logging with ELK, Prometheus, and Grafana for observability.
-* Maintained and modernized legacy software systems, successfully migrating applications to contemporary platforms while preserving core business functionalities.
-* Collaborate with Design, Product Management and Customer Management teams to continuously improve the product.
-* Support the team by actively participating in discussions and reviewing others’ code.
-* Improve team synergy and mentor junior engineers.
+* **Achievement:** Awarded **Monitoring Platform Excellence** for spearheading the division's largest monitoring platform, improving visualization accuracy by **25%** and reducing Mean Time to Detection (MTTD) by **30%**.
+* Developed infrastructure and services provisioning platform.
+* Architected and built software applications based on high-level requirements, covering estimation, planning, development, code review, performance optimization, and testing.
+* Designed and deployed scalable, robust microservices using Python and Golang.
+* Provisioned secure environments using Terraform and Ansible, adhering to Infrastructure as Code (IaC) best practices.
+* Automated CI/CD pipelines for multiple staging and production environments using GitLab CI.
+* Implemented observability suites with ELK, Prometheus, and Grafana to ensure high system availability.
+* Modernized legacy software systems, successfully migrating applications to containerized platforms while preserving core business functionalities.
+* Collaborated with Product and Customer Management teams to translate requirements into technical specifications.
+* Mentored the team by actively participating in technical discussions, guiding juniors, and conducting code reviews.
 
-**Orange Cyberdefense**  
-*Software Engineer*  
-*June 2023 – December 2024*
+**Orange Cyberdefense**
+*Software Engineer* | *June 2023 – December 2024*
 
-* Developed backend services in Python and Golang supporting cybersecurity monitoring for large number of enterprise clients.
-* Ensure high quality deliverables through CI/CD pipelines, tests, and documentation
+* **Achievement:** Recipient of the **Change Maker Award** for the rapid development and successful deployment of the "CyberSecure" initiative.
+* Developed backend services in Python and Golang supporting cybersecurity monitoring for a large volume of enterprise clients.
+* Ensured high-quality deliverables through standardized CI/CD pipelines, automated testing, and documentation.
 * Built scalable monitoring pipelines using ELK Stack, Kafka, and Airflow for proactive threat detection.
-* Worked closely with security engineering teams on security basesd products.
-* Build secure, scalable integrations.
-* Implemented infrastructure management solutions using Ansible and Terraform.
+* Partnered with security engineering teams to deliver security-based products and harden infrastructure.
+* Built secure, scalable integrations ensuring data integrity.
+* Engineered infrastructure management and monitoring solutions using Ansible and Terraform.
 
+**Elsewedy Electric**
+*Junior Software Engineer* | *January 2022 – May 2023*
 
-<br>
-
-**Elsewedy Electric**  
-*Junior Software Engineer*  
-*January 2022 – May 2023*  
-
-* Developed and maintained backend services using Nest.JS .
+* **Key Contribution:** Contributed to the infrastructure and services development for ITS Observability, implementing full-stack monitoring from ingestion to dashboard.
+* **Key Contribution:** Introduced IaC standards across projects, improving reproducibility and cost control on GCP.
+* Developed and maintained backend and frontend applications for large-scale industrial services.
+* Integrated and optimized workflows for low-level IoT devices.
 * Maintained CI/CD pipelines and integrated ELK and Zabbix for observability.
-* Created interactive dashboards in Angular/Node.js for real-time KPI tracking.
-
-### Notable Contributions:
-
-* Led the infrastructure setup for ITS Observability, implementing full-stack observability from ingestion to dashboard.
-* Introduced IaC standards across projects, improving reproducibility and cost control on GCP.
 
 ## Education
 
 **Bachelor of Computer Engineering**
 Shoubra Faculty of Engineering, Banha University
-September 2016 – May 2021
+*September 2016 – May 2021*
 GPA: 3.2/4.0
 
 ## Skills
 
-* Experience building large-scale distributed systems
-* Strong Experince with Monitoring and alerting using Prometheus, ELK Stack, Grafana.
-* Experience in cloud computing platforms, especially AWS
-* Strong background building scalable web applications in Python
-* Experience in Microservices Architecture.
-* Strong background in building Event-Driven Systems using Kafka, RabbitMQ, GCP Pub/Sub
-* Experience with cloud infrastructure, such as AWS, GCP, or Azure
-* Ability to automate deployments via CI/CD pipelines
-* Experience with building SaaS products
-* Knowledge of web security concepts and technologies related to access control or email-related field
-* Knowledge of DevOps tools and practices (CI/CD, Infrastructure as Code using Terraform, Ansible)
-* Knowledge of Linux and Unix-like environments
-* Knowledge of Databases design and preformance.
-* Scripting & Automation using Python, Bash.
+* Experience building large-scale distributed systems and microservices architectures.
+* Strong experience with monitoring and alerting using Prometheus, ELK Stack, and Grafana.
+* Strong background building scalable web applications and backend services in Python and Golang.
+* Experience in Event-Driven Systems using Kafka, RabbitMQ, and GCP Pub/Sub.
+* Experience with cloud infrastructure (AWS, GCP, Azure) and Infrastructure as Code using Terraform and Ansible.
+* Ability to automate deployments via CI/CD pipelines (GitLab CI, Jenkins).
+* Experience building SaaS products and secure 3rd-party integrations.
+* Knowledge of web security concepts, access control (OAuth2, Keycloak), and email security protocols.
+* Knowledge of Linux and Unix-like environments (RHEL, Debian).
+* Strong knowledge of Database design and performance optimization (PostgreSQL, MySQL, Redis).
+* Scripting & Automation using Python and Bash.
 
 ## Certifications
 
-* Zabbix 8.0 Certificate
-* CCNA ( expired 2022 )
-
-## Achievements
-
-* **Change Maker Award (Orange Cyberdefense):** For rapid development and deployment of the "CyberSecure initiative".
-* **Monitoring Platform Excellence (Orange Cyberdefense):** worked on the development of the division's largest monitoring platform, improving visualization accuracy by 25% and reducing mean time to detection by 30%.
+* Zabbix 8.0 Certified Specialist
+* Cisco Certified Network Associate (CCNA)
