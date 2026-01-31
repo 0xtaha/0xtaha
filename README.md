@@ -1,8 +1,9 @@
-# Taha Abdelaziz
-**Senior Software Engineer**
-Cairo, Egypt
-[taha.abdalzez26@gmail.com](mailto:taha.abdalzez26@gmail.com) | [+20 1068 394 574](tel:+201068394574)
-[linkedin.com/in/taha-abdelaziz](https://linkedin.com/in/taha-abdelaziz/) | [github.com/0xtaha](https://github.com/0xtaha/)
+# **Taha Abdelaziz**
+### Senior Platform Engineer
+Email: [taha.abdalzez26@gmail.com](mailto:taha.abdalzez26@gmail.com)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LinkedIn: [linkedin.com/in/taha-abdelaziz/](https://linkedin.com/in/taha-abdelaziz/)  
+Phone: [+20 1068 394 574](tel:+201068394574)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Languages: English, Arabic 
 
 ## Profile
 
@@ -10,8 +11,9 @@ Results-driven Senior Software Engineer with 4+ years of experience engineering 
 
 ## Professional Experience
 
-**Orange Cyberdefense**
-*Senior Software Engineer* | *January 2025 – Present*
+**Orange Cyberdefense**  
+*Senior Platform Engineer*  
+*January 2025 – Present*
 
 * **Achievement:** Awarded **Monitoring Platform Excellence** for spearheading the division's largest monitoring platform, improving visualization accuracy by **25%** and reducing Mean Time to Detection (MTTD) by **30%**.
 * Developed infrastructure and services provisioning platform.
