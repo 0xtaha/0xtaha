@@ -1,9 +1,6 @@
 # **Taha Abdelaziz**
 ### Senior Platform Engineer
-Email: [taha.abdalzez26@gmail.com](mailto:taha.abdalzez26@gmail.com)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LinkedIn: [linkedin.com/in/taha-abdelaziz/](https://linkedin.com/in/taha-abdelaziz/)  
-Phone: [+20 1068 394 574](tel:+201068394574)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Languages: English, Arabic 
+Email: [taha.abdalzez26@gmail.com](mailto:taha.abdalzez26@gmail.com) - LinkedIn: [linkedin.com/in/taha-abdelaziz/](https://linkedin.com/in/taha-abdelaziz/) - Phone: [+20 1068 394 574](tel:+201068394574)
 
 ## Profile
 
