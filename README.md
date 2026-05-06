@@ -39,7 +39,7 @@ Senior SRE and DevOps Engineer with 5 years of experience running and improving 
 
 ## EXPERIENCE
 
-### Senior Platform Engineer
+### Senior DevOps and Observability Engineer
 **Orange Cyberdefense** | January 2025 - Present
 
 Monitoring Platform Excellence Award - for leading the division's largest monitoring platform rebuild.
@@ -75,7 +75,7 @@ Linux and Systems
 
 ---
 
-### Software Engineer
+### DevOps Engineer
 **Orange Cyberdefense** | June 2023 - December 2024
 
 Change Maker Award - for the rapid delivery of the CyberSecure initiative.
