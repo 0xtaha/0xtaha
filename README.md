@@ -1,9 +1,9 @@
 # TAHA ABDELAZIZ
 ### Senior SRE and DevOps Engineer
 
-Email: [taha.abdalzez26@gmail.com](mailto:taha.abdalzez26@gmail.com)- [LinkedIn](https://linkedin.com/in/taha-abdelaziz/)
+Email: [taha.abdalzez26@gmail.com](mailto:taha.abdalzez26@gmail.com) - [LinkedIn](https://linkedin.com/in/taha-abdelaziz/)
 
-Phone: [+20 1068 394 574](tel:+201068394574)- [github](https://github.com/0xtaha)
+Phone: [+20 1068 394 574](tel:+201068394574) - [github](https://github.com/0xtaha)
 
 ---
 
@@ -23,6 +23,8 @@ Senior SRE and DevOps Engineer with 5 years of experience running and improving 
 
 **Containers and Orchestration:** Docker, Kubernetes (on-premise and GKE), Helm, Kustomize, ArgoCD, HPA/VPA, Kubernetes Networking (CNI, Ingress)
 
+**Automation and AI**: Developing Automation solutions using n8n, custome microservices and agentic AI
+
 **Linux and Systems:** RHEL, Debian, Ubuntu, systemd, sysctl tuning, cgroups, namespaces, ulimits, perf, strace, tcpdump, ss, sar, lsof, dmesg
 
 **Cloud:** GCP (Compute Engine, GKE, Pub/Sub, IAM), Azure (VMs, AKS, Azure Monitor)
@@ -31,7 +33,7 @@ Senior SRE and DevOps Engineer with 5 years of experience running and improving 
 
 **Security:** IAM, HashiCorp Vault, Network Policies, Vulnerability Scanning, Secrets Rotation
 
-**Programming:** Python, Bash, Go
+**Scripting:** Python, Bash, Go
 
 **Databases and Messaging:** PostgreSQL, MySQL, MongoDB, Apache Kafka, RabbitMQ, GCP Pub/Sub, Apache Airflow
 
@@ -44,32 +46,22 @@ Senior SRE and DevOps Engineer with 5 years of experience running and improving 
 
 Monitoring Platform Excellence Award - for leading the division's largest monitoring platform rebuild.
 
-Site Reliability Engineering
 - Owned reliability for production cybersecurity platforms serving enterprise clients; set and tracked SLOs, SLIs, and error budgets.
 - Led incident response for high-severity outages, ran post-mortems, and fixed the root causes that kept coming back.
-- Set up on-call rotations with escalation policies and runbooks; reduced MTTA and MTTR noticeably.
 - Introduced production readiness reviews before every new service launch - SLOs, dashboards, runbooks, and fallback paths required before going live.
-- Ran capacity planning and load tests (k6, Locust) to catch resource problems before they became incidents.
 - Designed HA systems with active-active deployments, circuit breakers, retry logic, and bulkheads.
 - Defined and tested disaster recovery procedures; validated RPO and RTO targets.
-- Used chaos engineering and fault injection to find hidden failure modes early.
-- Cut toil by automating manual ops tasks in Python and Bash.
+- developed and maintained automating solutions for manual ops tasks in Python and Bash.
 - Mentored engineers on SRE practices and pushed for blameless post-mortem culture across teams.
-
-Observability
 - Maintained and worked on the development of multiple observability stack using Prometheus and Grafana or zabbix for metrics, OpenTelemetry for tracing, ELK Stack for logs.
 - Designed telemetry pipelines using the OTel Collector in agent/gateway mode with tail-based sampling, PII scrubbing, and multi-backend fan-out.
 - Built alerting in Alertmanager and Grafana OnCall with symptom-based rules, severity tiers, and runbook links. Cut false positives significantly.
 - Managed ELK, Loki, and Graylog log infrastructure including ILM policies and hot-warm-cold tiering.
-
-DevOps and Automation
 - Automated infrastructure provisioning across Azure and GCP with Terraform and Ansible; got to full IaC coverage with no more config drift.
 - Built CI/CD pipelines in GitLab CI, GitHub Actions, and ArgoCD with testing, SAST/DAST scanning, and quality gates.
 - Implemented GitOps with ArgoCD including canary and blue/green deployments and automated rollbacks.
 - Deployed containerised services on Docker and Kubernetes (GKE and on-premise) with Helm, HPA/VPA, and resource quotas.
 - Integrated HashiCorp Vault for dynamic secret generation and automatic rotation across deployments and pipelines.
-
-Linux and Systems
 - Tuned Linux systems (RHEL, Debian) at OS level: sysctl, cgroups, namespaces, ulimits, and network stack tuning for high-throughput workloads.
 - Debugged multi-layer incidents using perf, strace, tcpdump, ss, sar, and dmesg.
 
