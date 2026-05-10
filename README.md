@@ -44,34 +44,36 @@ Senior DevOps and Observability Engineer with 5 years of experience running and 
 ### Senior DevOps and Observability Engineer
 **Orange Cyberdefense** | January 2025 - Present
 
-Monitoring Platform Excellence Award - for leading the division's largest monitoring platform rebuild.
-
-- developed and maintained automating solutions for manual ops tasks in Python and Bash.
-- Mentored engineers on SRE practices and pushed for blameless post-mortem culture across teams.
-- Maintained and worked on the development of multiple observability stacks using Prometheus and Grafana or zabbix for metrics, OpenTelemetry for tracing, ELK Stack for logs.
-- Designed and built an end-to-end infrastructure provisioning platform with a user-friendly dashboard for non-technical users.  
-- Architected scalable microservices using Python and Golang, enhancing system performance and reliability.  
-- Automated infrastructure provisioning across Azure and GCP using Terraform and on-prem Ansible; got to full IaC coverage with no more config drift.
-- Built CI/CD pipelines in GitLab CI, GitHub Actions, and ArgoCD with testing, SAST/DAST scanning, and quality gates.
-- Implemented GitOps with ArgoCD including canary and blue/green deployments and automated rollbacks.
-- Deployed containerised services on Docker and Kubernetes (GKE and on-premise) with Helm, HPA/VPA, and resource quotas
-- Owned reliability for production cybersecurity platforms serving enterprise clients; set and tracked SLOs, SLIs, and error budgets.
-- Led incident response for high-severity outages, ran post-mortems, and fixed the root causes that kept coming back.
-- Designed HA systems with active-active deployments, circuit breakers, retry logic, and bulkheads.
-- Defined and tested disaster recovery procedures; validated RPO and RTO targets.
+- Developed and maintained multiple production observability stacks (Prometheus, Grafana, Zabbix for metrics; OpenTelemetry for tracing; ELK Stack for logs) serving enterprise cybersecurity clients, achieving full three-pillar coverage across 10+ services.
+- Designed and delivered a self-service infrastructure provisioning platform with a non-technical-friendly dashboard, reducing operator provisioning time by ~60% and eliminating manual ticket handoffs.
+- Architected and deployed scalable microservices in Python and Go for automation.
+- Automated infrastructure configrations using Ansible.
+- Automated infrastructure provisioning across Azure and GCP using Terraform, reaching full IaC coverage with zero config drift across dev, staging, and production.
+- Built and owned CI/CD pipelines in GitLab CI, GitHub Actions, and ArgoCD with automated tests, SAST/DAST scanning, and quality gates.
+- implemented GitOps with canary and blue/green deployments and automated rollbacks.
+- Deployed containerised services on Docker and Kubernetes (GKE and on-premise) with Helm, HPA/VPA, and resource quotas.
+- Led incident response for high-severity outages; ran blameless post-mortems and eliminated recurring root causes, reducing MTTR.
+- Designed HA systems with active-active deployments, circuit breakers, retry logic, and bulkhead isolation; validated disaster recovery procedures against RPO and RTO targets.
+- Mentored engineers on SRE practices and championed blameless post-mortem culture across teams.
+- Developed Python and Bash automation to eliminate repetitive operational tasks across the team.
 ---
 
-### DevOps Engineer
+### Software and DevOps Engineer
 **Orange Cyberdefense** | June 2023 - December 2024
 
 Change Maker Award - for the rapid delivery of the CyberSecure initiative.
 
+- Developed backend services in Python and Golang supporting cybersecurity monitoring for a
+large volume of enterprise clients.
+- Ensured high-quality deliverables through standardized CI/CD pipelines, automated testing, and
+documentation.
+- Partnered with security engineering teams to deliver security-based products and harden
+infrastructure.
+- Built secure, scalable integrations ensuring data integrity.
 - Took part in on-call and resolved production incidents across app, platform, and infra layers; contributed to post-mortems and follow-up fixes.
 - Added health checks, liveness/readiness probes, and graceful shutdown to microservices to reduce cascading failures.
 - Contributed to canary and blue/green deployment rollouts and rollback procedures.
-- Built log ingestion and monitoring pipelines using ELK Stack, Kafka, and Airflow for proactive threat detection across enterprise clients.
 - Wrote Ansible playbooks and Terraform modules to standardise infra management across dev, staging, and production.
-- Developed backend services in Python and Golang with Prometheus metrics, structured logging, and OTel tracing built in.
 - Standardised CI/CD pipelines with automated tests and quality gates.
 
 ---
@@ -79,7 +81,7 @@ Change Maker Award - for the rapid delivery of the CyberSecure initiative.
 ### Junior Software Engineer
 **Elsewedy Electric** | October 2021 - May 2023
 
-- Built monitoring from the ground up for the ITS Observability project: ingestion, processing, and dashboards in Kibana and Zabbix.
+- Built monitoring from the ground up for the ITS Observability project: ingestion, processing, and dashboards using Elastic Stack and opentelemetry.
 - Introduced Terraform IaC standards on GCP, improving reproducibility and reducing deployment inconsistencies.
 - Maintained CI/CD pipelines and integrated ELK and Zabbix for production observability.
 - Developed backend and frontend applications for industrial-scale services and integrated IoT device workflows.
@@ -88,7 +90,8 @@ Change Maker Award - for the rapid delivery of the CyberSecure initiative.
 
 ## EDUCATION
 
-Bachelor of Computer Engineering
+**Bachelor of Computer Engineering** — Faculty of Engineering, Benha university
+
 September 2016 - August 2021 | GPA: 3.2 / 4.0
 
 ---
@@ -97,15 +100,6 @@ September 2016 - August 2021 | GPA: 3.2 / 4.0
 
 **Division-wide Observability Platform (Orange Cyberdefense)**
 Built end-to-end observability covering metrics, logs, and traces across multi-cloud and on-premise infrastructure. Set SLOs for 10+ services. Received Monitoring Platform Excellence Award.
-
-**Alerting and On-Call Platform (Orange Cyberdefense)**
-Built symptom-based alerting in Alertmanager and Grafana OnCall with severity tiers, escalation policies, and runbook automation. Reduced MTTA and MTTR across the team.
-
-**Cybersecurity Monitoring Pipelines (Orange Cyberdefense)**
-Built high-throughput ELK and Kafka ingestion pipelines for threat detection across a large managed security client base.
-
-**Self-Service Infrastructure Provisioning (Orange Cyberdefense)**
-Built a Terraform and Ansible-backed platform with Grafana dashboards letting non-technical operators manage infrastructure through a self-service interface.
 
 **ITS Observability Platform (Elsewedy Electric)**
 Delivered the first production monitoring stack for a large industrial platform, from raw telemetry ingestion to operational dashboards in Kibana and Zabbix.
