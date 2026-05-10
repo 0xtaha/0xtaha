@@ -1,5 +1,5 @@
 # TAHA ABDELAZIZ
-### Senior SRE and DevOps Engineer
+### Senior DevOps and Observability Engineer
 
 Email: [taha.abdalzez26@gmail.com](mailto:taha.abdalzez26@gmail.com) - [LinkedIn](https://linkedin.com/in/taha-abdelaziz/)
 
@@ -9,7 +9,7 @@ Phone: [+20 1068 394 574](tel:+201068394574) - [github](https://github.com/0xtah
 
 ## SUMMARY
 
-Senior SRE and DevOps Engineer with 5 years of experience running and improving large-scale production systems. I work across the full stack - Linux, containers, networking, CI/CD, and observability - and I'm comfortable owning reliability end to end. I've built monitoring platforms from scratch, led incident response, cut toil through automation, and helped teams ship faster without breaking things. Strong hands-on background in Prometheus, Grafana, ELK Stack, OpenTelemetry, Ansible, Terraform, Kubernetes, and scripting in Python, Bash, and Go.
+Senior DevOps and Observability Engineer with 5 years of experience running and improving large-scale production systems. I work across the full stack - Linux, containers, networking, CI/CD, and observability - and I'm comfortable owning reliability end to end. I've built monitoring platforms from scratch, led incident response, cut toil through automation, and helped teams ship faster without breaking things. Strong hands-on background in Prometheus, Grafana, ELK Stack, OpenTelemetry, Ansible, Terraform, Kubernetes, and scripting in Python, Bash, and Go.
 
 ---
 
@@ -46,25 +46,19 @@ Senior SRE and DevOps Engineer with 5 years of experience running and improving 
 
 Monitoring Platform Excellence Award - for leading the division's largest monitoring platform rebuild.
 
-- Owned reliability for production cybersecurity platforms serving enterprise clients; set and tracked SLOs, SLIs, and error budgets.
-- Led incident response for high-severity outages, ran post-mortems, and fixed the root causes that kept coming back.
-- Introduced production readiness reviews before every new service launch - SLOs, dashboards, runbooks, and fallback paths required before going live.
-- Designed HA systems with active-active deployments, circuit breakers, retry logic, and bulkheads.
-- Defined and tested disaster recovery procedures; validated RPO and RTO targets.
 - developed and maintained automating solutions for manual ops tasks in Python and Bash.
 - Mentored engineers on SRE practices and pushed for blameless post-mortem culture across teams.
-- Maintained and worked on the development of multiple observability stack using Prometheus and Grafana or zabbix for metrics, OpenTelemetry for tracing, ELK Stack for logs.
-- Designed telemetry pipelines using the OTel Collector in agent/gateway mode with tail-based sampling, PII scrubbing, and multi-backend fan-out.
-- Built alerting in Alertmanager and Grafana OnCall with symptom-based rules, severity tiers, and runbook links. Cut false positives significantly.
-- Managed ELK, Loki, and Graylog log infrastructure including ILM policies and hot-warm-cold tiering.
-- Automated infrastructure provisioning across Azure and GCP with Terraform and Ansible; got to full IaC coverage with no more config drift.
+- Maintained and worked on the development of multiple observability stacks using Prometheus and Grafana or zabbix for metrics, OpenTelemetry for tracing, ELK Stack for logs.
+- Designed and built an end-to-end infrastructure provisioning platform with a user-friendly dashboard for non-technical users.  
+- Architected scalable microservices using Python and Golang, enhancing system performance and reliability.  
+- Automated infrastructure provisioning across Azure and GCP using Terraform and on-prem Ansible; got to full IaC coverage with no more config drift.
 - Built CI/CD pipelines in GitLab CI, GitHub Actions, and ArgoCD with testing, SAST/DAST scanning, and quality gates.
 - Implemented GitOps with ArgoCD including canary and blue/green deployments and automated rollbacks.
-- Deployed containerised services on Docker and Kubernetes (GKE and on-premise) with Helm, HPA/VPA, and resource quotas.
-- Integrated HashiCorp Vault for dynamic secret generation and automatic rotation across deployments and pipelines.
-- Tuned Linux systems (RHEL, Debian) at OS level: sysctl, cgroups, namespaces, ulimits, and network stack tuning for high-throughput workloads.
-- Debugged multi-layer incidents using perf, strace, tcpdump, ss, sar, and dmesg.
-
+- Deployed containerised services on Docker and Kubernetes (GKE and on-premise) with Helm, HPA/VPA, and resource quotas
+- Owned reliability for production cybersecurity platforms serving enterprise clients; set and tracked SLOs, SLIs, and error budgets.
+- Led incident response for high-severity outages, ran post-mortems, and fixed the root causes that kept coming back.
+- Designed HA systems with active-active deployments, circuit breakers, retry logic, and bulkheads.
+- Defined and tested disaster recovery procedures; validated RPO and RTO targets.
 ---
 
 ### DevOps Engineer
