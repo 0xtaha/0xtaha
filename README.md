@@ -13,49 +13,26 @@ Senior DevOps and Observability Engineer with 5 years of experience running and 
 
 ---
 
-## SKILLS
-
-**SRE:** SLO/SLI/SLA, Error Budgets, Incident Command, Root Cause Analysis, Blameless Post-Mortems, On-Call Management, Production Readiness Reviews, Capacity Planning, Load Testing (k6, Locust), Disaster Recovery (RPO/RTO), Chaos Engineering, Toil Reduction, Runbook Authoring, MTTR/MTTD Reduction
-
-**Observability:** Prometheus, Grafana, Alertmanager, Grafana OnCall, OpenTelemetry (Collector + SDKs), Jaeger, Tempo, ELK Stack (Elasticsearch, Logstash, Kibana), Loki, Graylog, Splunk, Zabbix, Distributed Tracing, APM, Four Golden Signals, Log Lifecycle Management (ILM)
-
-**DevOps:** CI/CD, GitLab CI, GitHub Actions, ArgoCD, GitOps, Canary Deployments, Blue/Green Deployments, Ansible, Terraform, Infrastructure as Code, HashiCorp Vault, SAST/DAST, Policy as Code
-
-**Containers and Orchestration:** Docker, Kubernetes (on-premise and GKE), Helm, Kustomize, ArgoCD, HPA/VPA, Kubernetes Networking (CNI, Ingress)
-
-**Automation and AI**: Developing Automation solutions using n8n, custome microservices and agentic AI
-
-**Linux and Systems:** RHEL, Debian, Ubuntu, systemd, sysctl tuning, cgroups, namespaces, ulimits, perf, strace, tcpdump, ss, sar, lsof, dmesg
-
-**Cloud:** GCP (Compute Engine, GKE, Pub/Sub, IAM), Azure (VMs, AKS, Azure Monitor)
-
-**Networking:** TCP/IP, Routing, Multicast (PIM/IGMP), DNS, HAProxy, NGINX, Load Balancing
-
-**Security:** IAM, HashiCorp Vault, Network Policies, Vulnerability Scanning, Secrets Rotation
-
-**Scripting:** Python, Bash, Go
-
-**Databases and Messaging:** PostgreSQL, MySQL, MongoDB, Apache Kafka, RabbitMQ, GCP Pub/Sub, Apache Airflow
-
----
-
 ## EXPERIENCE
 
 ### Senior DevOps and Observability Engineer
 **Orange Cyberdefense** | January 2025 - Present
 
-- Developed and maintained multiple production observability stacks (Prometheus, Grafana, Zabbix for metrics; OpenTelemetry for tracing; ELK Stack for logs) serving enterprise cybersecurity clients, achieving full three-pillar coverage across 10+ services.
-- Designed and delivered a self-service infrastructure provisioning platform with a non-technical-friendly dashboard, reducing operator provisioning time by ~60% and eliminating manual ticket handoffs.
-- Architected and deployed scalable microservices in Python and Go for automation.
-- Automated infrastructure configrations using Ansible.
-- Automated infrastructure provisioning across Azure and GCP using Terraform, reaching full IaC coverage with zero config drift across dev, staging, and production.
+- Developed and maintained multiple production observability stacks (Prometheus, Grafana, Zabbix for metrics; OpenTelemetry for tracing; ELK Stack for logs) serving enterprise cybersecurity clients, achieving full three-pillar coverage across 100+ services.
+- Developed Ansible Playbooks, Ansible Roles and Bash automation to eliminate repetitive operational tasks across the team
+-  Architected and deployed scalable backend services in Python for supporting the observaibility stack.
+-  Deployed and Configured Identity Providers, reverse proxies, API Gatways on the Cloud and on-prem.
+-  Automated infrastructure provisioning across Azure and GCP using Terraform, reaching full IaC coverage with zero config drift across dev, staging, and production.
 - Built and owned CI/CD pipelines in GitLab CI, GitHub Actions, and ArgoCD with automated tests, SAST/DAST scanning, and quality gates.
-- implemented GitOps with canary and blue/green deployments and automated rollbacks.
+- implemented GitOps using ArgoCD with canary and blue/green deployments and automated rollbacks.
 - Deployed containerised services on Docker and Kubernetes (GKE and on-premise) with Helm, HPA/VPA, and resource quotas.
-- Led incident response for high-severity outages; ran blameless post-mortems and eliminated recurring root causes, reducing MTTR.
-- Designed HA systems with active-active deployments, circuit breakers, retry logic, and bulkhead isolation; validated disaster recovery procedures against RPO and RTO targets.
-- Mentored engineers on SRE practices and championed blameless post-mortem culture across teams.
-- Developed Python and Bash automation to eliminate repetitive operational tasks across the team.
+-  Designed HA systems with active-active deployments, circuit breakers, retry logic, and bulkhead isolation; validated disaster recovery procedures against RPO and RTO targets.
+- Maintained and modernized legacy software systems, successfully migrating applications to
+contemporary platforms while preserving core business functionalities.
+- Build secure, scalable integrations with broker tooling (email, document systems, CRMs, AMS).
+- Enforce security best practices (IAM, secrets, network policies) and ensure compliance via
+scanning and standards.
+
 ---
 
 ### Software and DevOps Engineer
@@ -85,6 +62,27 @@ infrastructure.
 - Introduced Terraform IaC standards on GCP, improving reproducibility and reducing deployment inconsistencies.
 - Maintained CI/CD pipelines and integrated ELK and Zabbix for production observability.
 - Developed backend and frontend applications for industrial-scale services and integrated IoT device workflows.
+
+---
+## SKILLS
+
+**Observability:** Prometheus, Grafana, Alertmanager, Grafana OnCall, OpenTelemetry (Collector + SDKs), Jaeger, Tempo, ELK Stack (Elasticsearch, Logstash, Kibana), Loki, Graylog, Splunk, Zabbix, Distributed Tracing, APM, Four Golden Signals, Log Lifecycle Management (ILM)
+
+**DevOps:** CI/CD, GitLab CI, GitHub Actions, ArgoCD, GitOps, Canary Deployments, Blue/Green Deployments, Ansible, Terraform, Infrastructure as Code, HashiCorp Vault, SAST/DAST, Policy as Code, Linux
+
+**Containers and Orchestration:** Docker, Kubernetes (on-premise and GKE), Helm, Kustomize, ArgoCD, HPA/VPA, Kubernetes Networking (CNI, Ingress)
+
+**Automation and AI**: Developing Automation solutions using n8n, Apache Airflow, custome microservices and agentic AI
+
+**Cloud:** GCP (Compute Engine, GKE, Pub/Sub, IAM), Azure (VMs, AKS, Azure Monitor)
+
+**Networking:** TCP/IP, Routing, Multicast (PIM/IGMP), DNS, HAProxy, NGINX, Load Balancing
+
+**Security:** IAM, HashiCorp Vault, Network Policies, Vulnerability Scanning, Secrets Rotation
+
+**Scripting:** Python, Bash, Go
+
+**Databases and Messaging:** PostgreSQL, MySQL, MongoDB, Apache Kafka, RabbitMQ, GCP Pub/Sub
 
 ---
 

@@ -4,7 +4,7 @@ services:
   readme-to-pdf:
     build: .
     environment:
-      - OUTPUT_PDF=Taha_Abdelaziz_Sr_SRE_and_Devops_Engineer.pdf
+      - OUTPUT_PDF=Taha_Abdelaziz_Sr_DevOps_and_Observability_Engineer.pdf
     volumes:
       - .:/app
     working_dir: /app
