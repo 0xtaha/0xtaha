@@ -9,7 +9,7 @@ Phone: [+20 1068 394 574](tel:+201068394574) - [github](https://github.com/0xtah
 
 ## SUMMARY
 
-Senior DevOps and Observability Engineer with 5 years of experience running and improving large-scale production systems. I work across the full stack - Linux, containers, networking, CI/CD, and observability - and I'm comfortable owning reliability end to end. I've built monitoring platforms from scratch, led incident response, cut toil through automation, and helped teams ship faster without breaking things. Strong hands-on background in Prometheus, Grafana, ELK Stack, OpenTelemetry, Ansible, Terraform, Kubernetes, and scripting in Python, Bash, and Go.
+Senior Platform and Observability Engineer with 5 years of experience running and improving large-scale production systems. I work across the full stack - Linux, containers, networking, CI/CD, and observability - and I'm comfortable owning reliability end to end. I've built monitoring platforms from scratch, led incident response, cut toil through automation, and helped teams ship faster without breaking things. Strong hands-on background in Prometheus, Grafana, ELK Stack, OpenTelemetry, Ansible, Terraform, Kubernetes, and scripting in Python, Bash, and Go.
 
 ---
 
