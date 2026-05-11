@@ -1,5 +1,5 @@
 # TAHA ABDELAZIZ
-### Senior DevOps and Observability Engineer
+### Senior Platform and Observability Engineer
 
 Email: [taha.abdalzez26@gmail.com](mailto:taha.abdalzez26@gmail.com) - [LinkedIn](https://linkedin.com/in/taha-abdelaziz/)
 
