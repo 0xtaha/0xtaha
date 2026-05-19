@@ -15,24 +15,28 @@ Senior Platform and Observability Engineer with 5 years of experience running an
 
 ## EXPERIENCE
 
-### Senior DevOps and Observability Engineer
+### Senior Platform and Observability Engineer
 **Orange Cyberdefense** | January 2025 - Present
 
 - Developed and maintained multiple production observability stacks (Prometheus, Grafana, Zabbix for metrics; OpenTelemetry for tracing; ELK Stack for logs) serving enterprise cybersecurity clients, achieving full three-pillar coverage across 100+ services.
 - Developed Ansible Playbooks, Ansible Roles and Bash automation to eliminate repetitive operational tasks across the team
--  Architected and deployed scalable backend services in Python for supporting the observaibility stack.
--  Deployed and Configured Identity Providers, reverse proxies, API Gatways on the Cloud and on-prem.
--  Automated infrastructure provisioning across Azure and GCP using Terraform, reaching full IaC coverage with zero config drift across dev, staging, and production.
+- Architected and deployed scalable backend services in Python for supporting the observaibility stack.
+- Hands-on experience with AWS, GCP, and Azure capable of managing and deploying workloads across multiple clouds
+- Automated secure provisioning, database setups, and environment registrations so teams can deploy to diffrent enviorments without Infra becoming a bottleneck.
+- Designed and built event-driven, high-performance, highly available distributed systems using diffrent technoligies like NATS, Kafka.
+- Deployed and Configured Identity Providers, reverse proxies, API Gatways on the Cloud and on-prem.
+- Designed and operated systems that extend Kubernetes by building operators and controllers, integrating and customizing third-party tools, or architecting custom platform primitives on top of Kubernetes APIs.
+- Automated infrastructure provisioning across Azure and GCP using Terraform, reaching full IaC coverage with zero config drift across dev, staging, and production.
 - Built and owned CI/CD pipelines in GitLab CI, GitHub Actions, and ArgoCD with automated tests, SAST/DAST scanning, and quality gates.
-- implemented GitOps using ArgoCD with canary and blue/green deployments and automated rollbacks.
+- Implemented GitOps using ArgoCD with canary and blue/green deployments and automated rollbacks.
+- Operated Highly Avilable databases (PostgreSQL/MySQL).
 - Deployed containerised services on Docker and Kubernetes (GKE and on-premise) with Helm, HPA/VPA, and resource quotas.
 -  Designed HA systems with active-active deployments, circuit breakers, retry logic, and bulkhead isolation; validated disaster recovery procedures against RPO and RTO targets.
-- Maintained and modernized legacy software systems, successfully migrating applications to
-contemporary platforms while preserving core business functionalities.
+- Maintained and modernized legacy software systems, successfully migrating applications to contemporary platforms while preserving core business functionalities.
 - Build secure, scalable integrations with broker tooling (email, document systems, CRMs, AMS).
 - Enforce security best practices (IAM, secrets, network policies) and ensure compliance via
 scanning and standards.
-
+- Documented and Supported all guidelines, automation and operational flows for services owned by the team.
 ---
 
 ### Software and DevOps Engineer
@@ -44,10 +48,18 @@ Change Maker Award - for the rapid delivery of the CyberSecure initiative.
 large volume of enterprise clients.
 - Ensured high-quality deliverables through standardized CI/CD pipelines, automated testing, and
 documentation.
+- Built, maintained, and optimize CI/CD pipelines for faster and reliable deployments.
 - Partnered with security engineering teams to deliver security-based products and harden
 infrastructure.
-- Built secure, scalable integrations ensuring data integrity.
+- Built secure, scalable integrations to jira, servicenow, codebeamer, Slack ensuring data integrity.
 - Took part in on-call and resolved production incidents across app, platform, and infra layers; contributed to post-mortems and follow-up fixes.
+- Automate infrastructure provisioning using Infrastructure as Code (IaC) tools such as Terraform.
+- Worked with Docker and Kubernetes for container orchestration and deployment.
+- Monitored system performance, availability, and security using monitoring and logging tools.
+- Troubleshoot infrastructure, deployment, and application issues.
+- Collaborate with development teams to improve release management and deployment strategies.
+- Ensure high availability, scalability, and security of applications and infrastructure.
+- Maintain documentation for infrastructure, processes, and deployment workflows
 - Added health checks, liveness/readiness probes, and graceful shutdown to microservices to reduce cascading failures.
 - Contributed to canary and blue/green deployment rollouts and rollback procedures.
 - Wrote Ansible playbooks and Terraform modules to standardise infra management across dev, staging, and production.
