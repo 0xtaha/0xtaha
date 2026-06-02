@@ -9,32 +9,33 @@ Phone: [+20 1068 394 574](tel:+201068394574) - [github](https://github.com/0xtah
 
 ## SUMMARY
 
-Senior DevSecOps and Automation Engineer, I manage end-to-end build, packaging, release, and deployment processes for multiple services and products. My role involves leveraging Terraform for infrastructure management, designing Ansible roles and playbooks for automation, and applying SOLID principles to create reusable frameworks, pipelines, and scripts that enhance operational efficiency.  
+Senior Platform and Automation Engineer, working as a part of Release Managment team as my role is to manage end-to-end build, packaging, release, and deployment processes for multiple services and products. leveraging Terraform for infrastructure management, using Gitops process for managing deployments and rollouts, designing Ansible roles and playbooks for automation, and applying SOLID principles to create reusable frameworks, pipelines, and scripts that enhance operational efficiency.  
 
 ---
 
 ## EXPERIENCE
 
-### Senior DevSecOps & Python Automation Engineer — Luxoft
+### Senior Platform & Python Automation Engineer — Luxoft
 *June 2026 – Present*
 
-
-- Standardize CI/CD across teams with reusable templates and shared libraries (GitLab CI, GitHub Actions, ArgoCD), cutting duplicated pipeline work.
-- Embeding SAST, DAST, and SCA checks into the CI/CD path so vulnerabilities surface at merge time, not in production.
+- Build, maintain, and improve developer tooling, environments, and workflows to enable efficient software delivery.
+- Automate service-level deployments using GitOps principles and CI/CD pipelines ith reusable templates and shared libraries (GitLab CI, GitHub Actions, ArgoCD), cutting duplicated pipeline work.
 - Own build, release, and deployment for several services, with compliance gates automated into the pipeline instead of bolted on afterward.
-- Manage complex build systems for embedded targets using bazel, keeping cross-compilation toolchains and dependencies reproducible build to build.
+- Embeding SAST, DAST, and SCA checks into the CI/CD path so vulnerabilities surface at merge time, not in production.
+- Support and manage production incidents, ensuring reliability and fast resolution.
+- Collaborate with software, QA, and product teams to provide scalable infrastructure abstractions.
+- Work with customer delivery teams to ensure systems are delivered, deployed, and maintainable in production environments
+- Partner directly with developers to adopt new tooling and ways of working.
+- Identify high-impact areas in developer experience and drive improvements end-to-end
 - Build secure Docker images and help teams do the same: minimal hardened base images, non-root containers, and image scanning wired into the build.
-- Automating secure infrastructure provisioning with Terraform: environments come up consistent and secure by default, with compliance guardrails baked into the modules instead of configured by hand.
-- Building a test automation framework for the QA teams covering both product-quality and security checks, wired into CI so issues surface before release instead of during manual passes.
-- Building the internal automation in Python (Bash for the lighter glue and CI tasks): the tooling, CLIs, and scripted integrations behind the pipeline, provisioning, and QA work above.
+- Automating secure infrastructure provisioning with Terraform to be consistent and secure by default, with compliance guardrails baked into the modules instead of configured by hand.
 - Maintain Ansible playbooks and roles for configuration automation and self-healing service recovery.
-
-
 
 ### Senior Platform Engineer — Orange Cyberdefense
 *January 2025 – May 2026*
 
 - Built the self-service provisioning flow (secure environment setup, database registration, deployment) that took infrastructure off the critical path for product teams. Provisioning that used to take 4 hour dropped to 5 mins.
+- Design, implement, and maintain on-premise software products and supporting infrastructure
 - Brought Terraform IaC to full coverage on Azure and GCP, with zero config drift between dev, staging, and production.
 - Owned the CI/CD pipelines on GitLab CI, GitHub Actions, and ArgoCD, with SAST/DAST scanning and quality gates that stopped insecure changes before they shipped.
 - Handled platform security end to end: IAM, secrets in HashiCorp Vault, Kubernetes network policies, and automated compliance scanning.
@@ -70,6 +71,18 @@ Senior DevSecOps and Automation Engineer, I manage end-to-end build, packaging, 
 ---
 
 ## SKILLS
+
+- Strong experience with Kubernetes, Azure and GCP, with a deep understanding of cloud computing concepts and architectures.
+- Strong understanding of CI/CD pipelines, with experience in developing, managing, and optimizing pipelines for diverse applications.
+- Proficiency in Python, Go and bash with ability to debug and troubleshoot.
+- Solid Linux system administration experience in production environments.
+- Experience with infrastructure as code and automation tooling.
+- Understanding of microservices architectures and distributed systems.
+- Experience with monitoring and logging solutions in production systems using opentelemetry, ELK, Promothious and graphana.
+- Solid Linux system administration experience in production environments.
+- Excellent collaboration and communication skills, with experience working with cross-functional teams to support robust cloud-native architectures and application reliability.
+- Strong problem-solving skills, with experience in troubleshooting issues and implementing proactive solutions for optimization and security.
+
 
 - **Languages & Scripting:** Python (automation, tooling, backend services), Bash, Go
 - **DevSecOps & Security:** SAST, DAST, SCA, HashiCorp Vault, IAM, Policy as Code, Kubernetes Network Policies, secrets management
