@@ -1,5 +1,5 @@
 # TAHA ABDELAZIZ
-### Senior Platform and DevOps Engineer
+### Senior Platform Engineer
 
 Email: [taha.abdalzez26@gmail.com](mailto:taha.abdalzez26@gmail.com) - [LinkedIn](https://linkedin.com/in/taha-abdelaziz/)
 
