@@ -1,5 +1,5 @@
 # TAHA ABDELAZIZ
-### Senior Platform Engineer
+### Senior Platform and DevOps Engineer
 
 Email: [taha.abdalzez26@gmail.com](mailto:taha.abdalzez26@gmail.com) - [LinkedIn](https://linkedin.com/in/taha-abdelaziz/)
 
@@ -15,26 +15,29 @@ Senior Platform and Automation Engineer, working as a part of Release Managment 
 
 ## EXPERIENCE
 
-### Senior Platform & Python Automation Engineer — Luxoft
+### Senior Platform & Build Engineer — Luxoft
 *June 2026 – Present*
 
-- Build, maintain, and improve developer tooling, environments, and workflows to enable efficient software delivery.
-- Automate service-level deployments using GitOps principles and CI/CD pipelines ith reusable templates and shared libraries (GitLab CI, GitHub Actions, ArgoCD), cutting duplicated pipeline work.
-- Own build, release, and deployment for several services, with compliance gates automated into the pipeline instead of bolted on afterward.
-- Embeding SAST, DAST, and SCA checks into the CI/CD path so vulnerabilities surface at merge time, not in production.
-- Support and manage production incidents, ensuring reliability and fast resolution.
-- Collaborate with software, QA, and product teams to provide scalable infrastructure abstractions.
-- Work with customer delivery teams to ensure systems are delivered, deployed, and maintainable in production environments
-- Partner directly with developers to adopt new tooling and ways of working.
-- Identify high-impact areas in developer experience and drive improvements end-to-end
-- Build secure Docker images and help teams do the same: minimal hardened base images, non-root containers, and image scanning wired into the build.
+- Designing and implementing processes and tools to enable continuous integration and continuous delivery, maximizing the speed and quality of delivery across teams.
+- Maintain DevOps infrastructure, including servers, storage, and networking, ensuring the reliability and performance of it.
+- Design, build and manage a comprehensive scallable build system using Bazel, Cmake, Maven, Poetry and UV to facilitate the development of services and libraries with understanding of the tradeoffs of hermetic builds, dependency graphs, caching,.
 - Automating secure infrastructure provisioning with Terraform to be consistent and secure by default, with compliance guardrails baked into the modules instead of configured by hand.
 - Maintain Ansible playbooks and roles for configuration automation and self-healing service recovery.
+- Support and manage production incidents, ensuring reliability and fast resolution.
+- Collaborate with software, QA, and product teams to provide scalable infrastructure abstractions.
+- Work with customer delivery teams to ensure systems are delivered, deployed, and maintainable in production environments.
+- Collaborate with application and infrastructure teams to support system provisioning, troubleshooting, and lifecycle management.
+- Partner directly with developers to adopt new tooling and ways of working.
+- Design and maintain OS and Docker golden images, ensuring standardization, security compliance, and performance optimization.
+- Build secure Docker images and help teams do the same: minimal hardened base images, non-root containers, and image scanning wired into the build.
+
 
 ### Senior Platform Engineer — Orange Cyberdefense
 *January 2025 – May 2026*
 
-- Built the self-service provisioning flow (secure environment setup, database registration, deployment) that took infrastructure off the critical path for product teams. Provisioning that used to take 4 hour dropped to 5 mins.
+- Built the self-service provisioning flow (secure environment setup, database registration, deployment) that took infrastructure off the critical path for product teams.
+- Embeding SAST, DAST, and SCA checks into the CI/CD path so vulnerabilities surface at merge time, not in production.
+- Full responsibility of migration and upgrading to new releases to ensure smooth transitions and continued functionality. 
 - Design, implement, and maintain on-premise software products and supporting infrastructure
 - Brought Terraform IaC to full coverage on Azure and GCP, with zero config drift between dev, staging, and production.
 - Owned the CI/CD pipelines on GitLab CI, GitHub Actions, and ArgoCD, with SAST/DAST scanning and quality gates that stopped insecure changes before they shipped.
