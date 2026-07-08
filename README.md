@@ -53,8 +53,6 @@ Senior Platform and Automation Engineer, working as a part of Release Managment 
 ### Software & DevOps Engineer — Orange Cyberdefense
 *June 2023 – December 2024*
 
-> **Change Maker Award** — for rapid delivery of the CyberSecure initiative.
-
 - Wrote Python and Go backend services for cybersecurity monitoring, serving 100+ enterprise clients.
 - Standardized the CI/CD pipelines with automated tests and quality gates, which cut deployment failures and tightened release cycles.
 - Built secure integrations into Jira, ServiceNow, codebeamer, and Slack without breaking data integrity across them.
@@ -62,6 +60,8 @@ Senior Platform and Automation Engineer, working as a part of Release Managment 
 - Added health checks, liveness/readiness probes, and graceful shutdown to keep one failing service from taking down the rest.
 - Standardized infrastructure with Ansible playbooks and Terraform modules across all environments.
 - Worked alongside security engineering to ship security products and harden infrastructure.
+
+> **Change Maker Award** — for rapid delivery of the CyberSecure initiative.
 
 ### Junior Software Engineer — Elsewedy Electric
 *October 2021 – May 2023*
