@@ -22,6 +22,7 @@ Senior Platform and Automation Engineer, working as a part of Release Managment 
 - Maintain DevOps infrastructure, including servers, storage, and networking, ensuring the reliability and performance of it.
 - Design, build and manage a comprehensive scallable build system using Bazel, Cmake, Maven, Poetry and UV to facilitate the development of services and libraries with understanding of the tradeoffs of hermetic builds, dependency graphs, caching,.
 - Automating secure infrastructure provisioning with Terraform to be consistent and secure by default, with compliance guardrails baked into the modules instead of configured by hand.
+- Leverage AI-assisted development tools and agentic workflows to accelerate delivery, automate routine tasks, and improve delivered quality across the team.
 - Maintain Ansible playbooks and roles for configuration automation and self-healing service recovery.
 - Support and manage production incidents, ensuring reliability and fast resolution.
 - Collaborate with software, QA, and product teams to provide scalable infrastructure abstractions.
@@ -87,7 +88,8 @@ Senior Platform and Automation Engineer, working as a part of Release Managment 
 - Strong problem-solving skills, with experience in troubleshooting issues and implementing proactive solutions for optimization and security.
 
 
-- **Languages & Scripting:** Python (automation, tooling, backend services), Bash, Go
+- **Languages & Scripting:** Python (automation, tooling, backend services), Bash, Go.
+- **AI:** Using Claude Code, Copilot and agentic workflow for accelerating delivery.
 - **DevSecOps & Security:** SAST, DAST, SCA, HashiCorp Vault, IAM, Policy as Code, Kubernetes Network Policies, secrets management
 - **DevOps & CI/CD:** Terraform, Ansible, GitLab CI, GitHub Actions, ArgoCD, Helm, Kustomize
 - **Containers & Orchestration:** Kubernetes (GKE, on-premise), Docker, custom operators/controllers
