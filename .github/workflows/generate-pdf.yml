@@ -64,3 +64,4 @@ jobs:
           name: resume-pdf
           path: ${{ github.workspace }}/${{ env.OUTPUT_PDF }}
           if-no-files-found: error
+          retention-days: 1

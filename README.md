@@ -19,7 +19,7 @@ Senior DevSecOps Engineer with ~5 years building and securing cloud-native platf
 ### Senior DevSecOps & Build Engineer — Luxoft
 *June 2026 – Present*
 
-Build secure CI/CD pipelines with quality gates — SAST, DAST, and automated security-best-practice checks — that enforce security and code-quality standards before merge, blocking non-compliant changes from progressing.
+- Build secure CI/CD pipelines with quality gates — SAST, DAST, and automated security-best-practice checks — that enforce security and code-quality standards before merge, blocking non-compliant changes from progressing.
 - Build intelligent, AI-assisted and agentic build and release pipelines that automate build orchestration, quality checks, and release decisions with security baked into the flow.
 - Design reusable automation solutions and tooling that eliminate manual, error-prone steps across the build, packaging, and release lifecycle.
 - Design and operate a scalable build system (Bazel, CMake, Maven, Poetry, UV) with hermetic builds, dependency-graph management, and caching to accelerate delivery across teams.
