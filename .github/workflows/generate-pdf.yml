@@ -1,0 +1,41 @@
+name: Generate README PDF
+
+on:
+  workflow_dispatch:
+    inputs:
+      output_file:
+        description: Name of the generated PDF file
+        required: false
+        default: Taha_Abdelaziz_Sr_DevSecOps_Engineer.pdf
+        type: string
+
+jobs:
+  generate-pdf:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    env:
+      OUTPUT_PDF: ${{ github.event.inputs.output_file || 'Taha_Abdelaziz_Sr_DevSecOps_Engineer.pdf' }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Build Docker image
+        run: docker build -t readme-to-pdf .
+
+      - name: Generate PDF
+        run: |
+          docker run --rm \
+            -v "$GITHUB_WORKSPACE:/app" \
+            -w /app \
+            -e OUTPUT_PDF="$OUTPUT_PDF" \
+            readme-to-pdf
+
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: resume-pdf
+          path: ${{ github.workspace }}/${{ env.OUTPUT_PDF }}
+          if-no-files-found: error
