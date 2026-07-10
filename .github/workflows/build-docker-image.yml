@@ -69,7 +69,11 @@ jobs:
 
   build-final-image:
     needs: [detect-changes, build-base-image]
-    if: always() && needs.detect-changes.outputs.final_needed == 'true'
+    if: |
+      needs.detect-changes.outputs.final_needed == 'true' && (
+        needs.detect-changes.outputs.base_changed == 'false' ||
+        needs.build-base-image.result == 'success'
+      )
     runs-on: ubuntu-latest
     permissions:
       contents: read
