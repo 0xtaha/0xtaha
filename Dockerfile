@@ -28,8 +28,9 @@ WORKDIR /app
 # Copy only application code and requirements into the image
 COPY requirements.txt main.py style.css /app/
 
-# Install Python packages
-RUN pip install --no-cache-dir -r requirements.txt
+# Install UV and use it to install Python requirements
+RUN python -m pip install --no-cache-dir uv && \
+    uv install -r requirements.txt
 
 # Default command
 CMD ["python", "main.py"]
