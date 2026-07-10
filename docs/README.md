@@ -86,7 +86,7 @@ docker run --rm \
 ### Multi-Stage Build
 
 The Docker setup separates concerns:
-- **Base image** (Dockerfile.base): System dependencies, wkhtmltopdf, non-root user
+- **Base image** (Dockerfile.base): System dependencies, Playwright/Chromium, non-root user
 - **Final image** (Dockerfile.python): Python dependencies, application code
 
 **Benefits**: Faster rebuilds, smaller final image, better caching
@@ -237,7 +237,7 @@ When making changes to the documentation:
 - [Markdown documentation](https://daringfireball.net/projects/markdown/)
 - [Docker documentation](https://docs.docker.com/)
 - [GitHub Actions documentation](https://docs.github.com/en/actions)
-- [wkhtmltopdf documentation](https://wkhtmltopdf.org/)
+- [Playwright documentation](https://playwright.dev/)
 
 ## Support
 

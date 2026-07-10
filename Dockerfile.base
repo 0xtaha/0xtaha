@@ -1,11 +1,27 @@
 FROM python:3.14-slim AS base
 
+# Install dependencies required to run headless Chromium (Playwright) and fonts
 RUN apt-get update && apt-get install -y \
     wget \
+    ca-certificates \
+    libnss3 \
+    libatk1.0-0 \
+    libatk-bridge2.0-0 \
+    libcups2 \
+    libx11-xcb1 \
+    libxcomposite1 \
+    libxdamage1 \
+    libxrandr2 \
+    libgbm1 \
+    libasound2 \
+    libxss1 \
+    libxtst6 \
     libxrender1 \
     libxext6 \
     libfontconfig1 \
     fontconfig \
+    fonts-liberation \
+    libpangocairo-1.0-0 \
     libjpeg62-turbo \
     libpng16-16 \
     libx11-6 \
@@ -14,13 +30,8 @@ RUN apt-get update && apt-get install -y \
     xfonts-base \
     && rm -rf /var/lib/apt/lists/*
 
-RUN wget https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6.1-3/wkhtmltox_0.12.6.1-3.bookworm_amd64.deb && \
-    apt-get update && \
-    apt install -y ./wkhtmltox_0.12.6.1-3.bookworm_amd64.deb && \
-    rm wkhtmltox_0.12.6.1-3.bookworm_amd64.deb && \
-    rm -rf /var/lib/apt/lists/*
-
-RUN groupadd -r appuser && useradd -r -g appuser appuser
+# Create non-root user for running the app
+RUN groupadd -r appuser && useradd -r -g appuser -d /home/appuser -m appuser
 
 WORKDIR /app
 

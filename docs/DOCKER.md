@@ -27,7 +27,7 @@ Dockerfile.python (Stage 2)
 
 **Key Features**:
 - Minimal Python image (3.14-slim)
-- wkhtmltopdf and all required system libraries
+- Chromium (for Playwright) and all required system libraries (libnss3, libatk1.0-0, libgbm1, libpangocairo-1.0-0, fonts-liberation, etc.)
 - Non-root user creation for security
 - Optimized layer caching
 
@@ -41,7 +41,7 @@ System:
 - libx11-6, libxcb1 (X11 libraries)
 
 Application:
-- wkhtmltopdf 0.12.6.1-3 (HTML to PDF conversion)
+- Playwright + Chromium (HTML to PDF conversion)
 ```
 
 **User Context**:

@@ -5,13 +5,21 @@ WORKDIR /app
 
 COPY pyproject.toml style.css main.py /app/
 
+# Install python dependencies (uses uv to install from pyproject.toml)
 RUN python -m pip install --no-cache-dir uv && \
     uv pip install --system --quiet . 
+
+# Install Playwright browsers into a shared location and set env so runtime (non-root) can use them
+ENV PLAYWRIGHT_BROWSERS_PATH=/ms-playwright
+RUN mkdir -p $PLAYWRIGHT_BROWSERS_PATH && \
+    python -m playwright install --with-deps chromium && \
+    chown -R appuser:appuser $PLAYWRIGHT_BROWSERS_PATH
 
 # Create fontconfig cache directory with proper permissions for appuser
 RUN mkdir -p /home/appuser/.cache/fontconfig && \
     chown -R appuser:appuser /home/appuser/.cache
 
+# Ensure app directory ownership
 RUN chown -R appuser:appuser /app
 
 USER appuser

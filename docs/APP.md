@@ -2,7 +2,7 @@
 
 ## Overview
 
-`readme-to-pdf` is a Python application that converts a Markdown README file into a formatted PDF document using wkhtmltopdf. The application reads your README.md, applies custom CSS styling, and generates a production-ready PDF file.
+`readme-to-pdf` is a Python application that converts a Markdown README file into a formatted PDF document using Playwright (headless Chromium). The application reads your README.md, applies custom CSS styling, and generates a production-ready PDF file.
 
 ## Features
 
@@ -20,7 +20,7 @@
    - Reads README.md file
    - Applies style.css formatting
    - Generates HTML from Markdown
-   - Converts HTML to PDF using wkhtmltopdf
+   - Converts HTML to PDF using Playwright (headless Chromium)
 
 2. **style.css** - Styling configuration
    - Defines layout and typography
@@ -29,7 +29,7 @@
 
 3. **pyproject.toml** - Project metadata and dependencies
    - Python version requirement: >=3.14
-   - Core dependencies: markdown, pdfkit
+   - Core dependencies: markdown, playwright
 
 ## Usage
 
@@ -73,13 +73,13 @@ OUTPUT_PDF=my-resume.pdf python main.py
 ### Runtime Dependencies
 
 - **markdown** - Convert Markdown to HTML
-- **pdfkit** - Python wrapper for wkhtmltopdf
-- **wkhtmltopdf** - HTML to PDF converter (installed in Docker base image)
+- **playwright** - Python package providing Chromium automation for HTML→PDF rendering
+- **Chromium (via Playwright)** - Headless Chromium browser used to render HTML to PDF (installed in Docker base image / final image build)
 
 ### System Requirements (Docker)
 
 - Python 3.14-slim
-- wkhtmltopdf and dependencies (libxrender1, libxext6, libfontconfig1, etc.)
+- Chromium and dependencies (libnss3, libatk1.0-0, libgbm1, libpangocairo-1.0-0, fonts-liberation, etc.)
 - Non-root user context
 
 ## How It Works

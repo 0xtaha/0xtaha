@@ -110,7 +110,7 @@ fi
 **Input**:
 - `Dockerfile.base` (immutable from repo)
 - System dependencies list
-- wkhtmltopdf package version
+- Playwright + Chromium browser version (installed during final image build or at build time)
 
 **Process**:
 ```
@@ -120,7 +120,7 @@ Stage 2a: Prepare Environment
 
 Stage 2b: Build Image
 - FROM python:3.14-slim
-- RUN apt-get install (wkhtmltopdf + libs)
+- RUN apt-get install (Chromium dependencies) and ensure Playwright browsers are available
 - RUN groupadd/useradd (appuser)
 - WORKDIR /app
 - RUN chown (appuser:appuser)

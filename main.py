@@ -1,10 +1,10 @@
 import markdown
-import pdfkit
 import os
+from playwright.sync_api import sync_playwright
+
 
 def convert_readme_to_pdf(readme_path='README.md', css_path='style.css'):
     output_path = os.environ.get("OUTPUT_PDF", "README.pdf")
-    config = pdfkit.configuration(wkhtmltopdf='/usr/local/bin/wkhtmltopdf')
 
     # Read Markdown
     with open(readme_path, 'r', encoding='utf-8') as f:
@@ -31,15 +31,22 @@ def convert_readme_to_pdf(readme_path='README.md', css_path='style.css'):
     </html>
     """
 
-    options = {
-        'margin-top': '15mm',
-        'margin-right': '15mm',
-        'margin-bottom': '15mm',
-        'margin-left': '15mm',
-    }
+    # Render PDF using Playwright (Chromium)
+    with sync_playwright() as p:
+        browser = p.chromium.launch()
+        page = browser.new_page()
+        page.set_content(html, wait_until='networkidle')
+        # margins in Playwright use a dict; include background printing
+        page.pdf(path=output_path, format='A4', margin={
+            'top': '15mm',
+            'right': '15mm',
+            'bottom': '15mm',
+            'left': '15mm'
+        }, print_background=True)
+        browser.close()
 
-    pdfkit.from_string(html, output_path, configuration=config, options=options)
     print(f"✅ PDF generated: {output_path}")
+
 
 if __name__ == "__main__":
     convert_readme_to_pdf()
