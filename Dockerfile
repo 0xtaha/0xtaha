@@ -25,12 +25,12 @@ RUN wget https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6.1-3/w
 # Set working directory
 WORKDIR /app
 
-# Copy only application code and requirements into the image
-COPY requirements.txt main.py style.css /app/
+# Copy only application code and project metadata into the image
+COPY pyproject.toml main.py style.css /app/
 
-# Install UV and use it to install Python requirements
+# Install UV and use it to install Python dependencies from pyproject.toml
 RUN python -m pip install --no-cache-dir uv && \
-    uv install -r requirements.txt
+    uv install
 
 # Default command
 CMD ["python", "main.py"]
