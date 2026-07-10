@@ -47,7 +47,12 @@ jobs:
 
       - name: Generate PDF
         run: |
+          # Run container as the current runner UID:GID so the generated PDF is written
+          # with ownership matching the runner and can be uploaded by the workflow
+          UID=$(id -u)
+          GID=$(id -g)
           docker run --rm \
+            -u $UID:$GID \
             -v "$GITHUB_WORKSPACE:/app" \
             -w /app \
             -e OUTPUT_PDF="$OUTPUT_PDF" \

@@ -13,7 +13,8 @@ RUN python -m pip install --no-cache-dir uv && \
 ENV PLAYWRIGHT_BROWSERS_PATH=/ms-playwright
 RUN mkdir -p $PLAYWRIGHT_BROWSERS_PATH && \
     python -m playwright install --with-deps chromium && \
-    chown -R appuser:appuser $PLAYWRIGHT_BROWSERS_PATH
+    chown -R appuser:appuser $PLAYWRIGHT_BROWSERS_PATH && \
+    chmod -R a+rX $PLAYWRIGHT_BROWSERS_PATH
 
 # Create fontconfig cache directory with proper permissions for appuser
 RUN mkdir -p /home/appuser/.cache/fontconfig && \
