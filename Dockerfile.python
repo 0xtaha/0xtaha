@@ -8,4 +8,8 @@ COPY pyproject.toml style.css main.py /app/
 RUN python -m pip install --no-cache-dir uv && \
     uv install
 
+RUN chown -R appuser:appuser /app
+
+USER appuser
+
 CMD ["python", "main.py"]
