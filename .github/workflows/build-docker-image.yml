@@ -6,6 +6,7 @@ on:
       - Dockerfile.base
       - Dockerfile.python
       - pyproject.toml
+  workflow_dispatch:
 
 jobs:
   detect-changes:
@@ -15,7 +16,7 @@ jobs:
       final_needed: ${{ steps.detect.outputs.final_needed }}
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.2.0
         with:
           fetch-depth: 0
 
@@ -48,17 +49,17 @@ jobs:
       packages: write
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.2.0
 
       - name: Login to GitHub Container Registry
-        uses: docker/login-action@v5
+        uses: docker/login-action@v3
         with:
           registry: ghcr.io
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Build and push base image
-        uses: docker/build-push-action@v5
+        uses: docker/build-push-action@v6
         with:
           context: .
           file: Dockerfile.base
@@ -82,12 +83,12 @@ jobs:
       BASE_IMAGE: ghcr.io/${{ github.repository_owner }}/readme-to-pdf-base:base
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.2.0
         with:
           fetch-depth: 0
 
       - name: Login to GitHub Container Registry
-        uses: docker/login-action@v5
+        uses: docker/login-action@v3
         with:
           registry: ghcr.io
           username: ${{ github.actor }}
@@ -100,7 +101,7 @@ jobs:
           set -e
 
       - name: Build and push final image
-        uses: docker/build-push-action@v5
+        uses: docker/build-push-action@v6
         with:
           context: .
           file: Dockerfile.python
