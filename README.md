@@ -1,6 +1,6 @@
 # TAHA ABDELAZIZ
-### Senior Platform Engineer
-*DevSecOps · DevEx · AI-Assisted Delivery*
+### Senior DevSecOps Engineer
+*Platform Engineering · DevOps · AI-Assisted Delivery*
 
 Email: [taha.abdalzez26@gmail.com](mailto:taha.abdalzez26@gmail.com) - [LinkedIn](https://linkedin.com/in/taha-abdelaziz/)
 
@@ -10,16 +10,16 @@ Phone: [+20 1068 394 574](tel:+201068394574) - [github](https://github.com/0xtah
 
 ## SUMMARY
 
-Senior Platform Engineer with ~5 years building and securing cloud-native platforms across Azure, GCP, and AWS. Designs automation solutions and AI-assisted, agentic build and release workflows that embed security by default, wiring SAST/DAST/SCA and policy-as-code into CI/CD so vulnerabilities surface at merge time. Owns secrets and identity at scale (HashiCorp Vault, IAM, Kubernetes network policies) and builds self-service platforms that take infrastructure and security off product teams' critical path.
+Senior DevSecOps Engineer with ~5 years building and securing cloud-native platforms. Designs automation solutions and AI-assisted, agentic build and release workflows that embed security by default, wiring SAST/DAST/SCA and policy-as-code into CI/CD so vulnerabilities surface at merge time. Owns secrets and identity at scale (HashiCorp Vault, IAM, Kubernetes network policies) and builds self-service platforms that take infrastructure and security off product teams' critical path.
 
 ---
 
 ## EXPERIENCE
 
-### Senior Platform & Build Engineer — Luxoft
+### Senior DevSecOps & Build Engineer — Luxoft
 *June 2026 – Present*
 
-- Build secure CI/CD pipelines with quality gates that enforce security and code-quality standards before merge, blocking non-compliant changes from progressing.
+Build secure CI/CD pipelines with quality gates — SAST, DAST, and automated security-best-practice checks — that enforce security and code-quality standards before merge, blocking non-compliant changes from progressing.
 - Build intelligent, AI-assisted and agentic build and release pipelines that automate build orchestration, quality checks, and release decisions with security baked into the flow.
 - Design reusable automation solutions and tooling that eliminate manual, error-prone steps across the build, packaging, and release lifecycle.
 - Design and operate a scalable build system (Bazel, CMake, Maven, Poetry, UV) with hermetic builds, dependency-graph management, and caching to accelerate delivery across teams.
