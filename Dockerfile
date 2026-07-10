@@ -25,8 +25,8 @@ RUN wget https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6.1-3/w
 # Set working directory
 WORKDIR /app
 
-# Copy files
-COPY . /app
+# Copy only application code and requirements into the image
+COPY requirements.txt main.py style.css /app/
 
 # Install Python packages
 RUN pip install --no-cache-dir -r requirements.txt

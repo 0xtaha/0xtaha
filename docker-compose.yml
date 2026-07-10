@@ -6,5 +6,5 @@ services:
     environment:
       - OUTPUT_PDF=Taha_Abdelaziz_Sr_DevSecOps_Engineer.pdf
     volumes:
-      - .:/app
+      - ./README.md:/app/README.md:ro
     working_dir: /app
