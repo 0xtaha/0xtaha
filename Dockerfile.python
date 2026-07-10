@@ -6,7 +6,7 @@ WORKDIR /app
 COPY pyproject.toml style.css main.py /app/
 
 RUN python -m pip install --no-cache-dir uv && \
-    uv install
+    uv pip install --system markdown pdfkit
 
 RUN chown -R appuser:appuser /app
 
