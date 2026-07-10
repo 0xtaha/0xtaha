@@ -8,6 +8,10 @@ COPY pyproject.toml style.css main.py /app/
 RUN python -m pip install --no-cache-dir uv && \
     uv pip install --system --quiet . 
 
+# Create fontconfig cache directory with proper permissions for appuser
+RUN mkdir -p /home/appuser/.cache/fontconfig && \
+    chown -R appuser:appuser /home/appuser/.cache
+
 RUN chown -R appuser:appuser /app
 
 USER appuser
