@@ -1,17 +1,51 @@
-name: Build Docker image on Dockerfile changes
+name: Build Docker images on Dockerfile and dependency changes
 
 on:
   push:
     paths:
-      - Dockerfile
+      - Dockerfile.base
+      - Dockerfile.python
+      - pyproject.toml
 
 jobs:
-  build-and-push:
+  detect-changes:
+    runs-on: ubuntu-latest
+    outputs:
+      base_changed: ${{ steps.detect.outputs.base_changed }}
+      final_needed: ${{ steps.detect.outputs.final_needed }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Detect changed build files
+        id: detect
+        run: |
+          git diff --name-only ${{ github.event.before }} ${{ github.event.after }} > changed.txt || true
+          cat changed.txt
+          base_changed=false
+          final_needed=false
+          if grep -q -x 'Dockerfile.base' changed.txt; then
+            base_changed=true
+            final_needed=true
+          fi
+          if grep -q -x 'Dockerfile.python' changed.txt; then
+            final_needed=true
+          fi
+          if grep -q -x 'pyproject.toml' changed.txt; then
+            final_needed=true
+          fi
+          echo "base_changed=$base_changed" >> $GITHUB_OUTPUT
+          echo "final_needed=$final_needed" >> $GITHUB_OUTPUT
+
+  build-base-image:
+    needs: detect-changes
+    if: needs.detect-changes.outputs.base_changed == 'true'
     runs-on: ubuntu-latest
     permissions:
       contents: read
       packages: write
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -23,9 +57,52 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Build and push Docker image
+      - name: Build and push base image
         uses: docker/build-push-action@v5
         with:
           context: .
+          file: Dockerfile.base
           push: true
-          tags: ghcr.io/${{ github.repository_owner }}/readme-to-pdf:${{ github.sha }}
+          tags: |
+            ghcr.io/${{ github.repository_owner }}/readme-to-pdf-base:base
+            ghcr.io/${{ github.repository_owner }}/readme-to-pdf-base:${{ github.sha }}
+
+  build-final-image:
+    needs: [detect-changes, build-base-image]
+    if: always() && needs.detect-changes.outputs.final_needed == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    env:
+      BASE_IMAGE: ghcr.io/${{ github.repository_owner }}/readme-to-pdf-base:base
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Login to GitHub Container Registry
+        uses: docker/login-action@v5
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pull base image if available
+        run: |
+          set +e
+          docker pull "$BASE_IMAGE"
+          set -e
+
+      - name: Build and push final image
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          file: Dockerfile.python
+          build-args: |
+            BASE_IMAGE=$BASE_IMAGE
+          push: true
+          tags: |
+            ghcr.io/${{ github.repository_owner }}/readme-to-pdf:latest
+            ghcr.io/${{ github.repository_owner }}/readme-to-pdf:${{ github.sha }}

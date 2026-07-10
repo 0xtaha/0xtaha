@@ -1,8 +1,8 @@
-version: '3.8'
-
 services:
   readme-to-pdf:
-    build: .
+    build:
+      context: .
+      dockerfile: Dockerfile.python
     environment:
       - OUTPUT_PDF=Taha_Abdelaziz_Sr_DevSecOps_Engineer.pdf
     volumes:

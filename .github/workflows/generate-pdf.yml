@@ -19,7 +19,7 @@ jobs:
     env:
       OUTPUT_PDF: ${{ github.event.inputs.output_file || 'Taha_Abdelaziz_Sr_DevSecOps_Engineer.pdf' }}
       IMAGE_NAME: ghcr.io/${{ github.repository_owner }}/readme-to-pdf
-      IMAGE_TAG: ${{ github.sha }}
+      IMAGE_TAG: latest
       IMAGE_REF: ${{ env.IMAGE_NAME }}:${{ env.IMAGE_TAG }}
 
     steps:
