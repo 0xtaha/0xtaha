@@ -20,4 +20,8 @@ RUN wget https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6.1-3/w
     rm wkhtmltox_0.12.6.1-3.bookworm_amd64.deb && \
     rm -rf /var/lib/apt/lists/*
 
+RUN groupadd -r appuser && useradd -r -g appuser appuser
+
 WORKDIR /app
+
+RUN chown -R appuser:appuser /app
