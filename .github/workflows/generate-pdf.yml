@@ -33,26 +33,16 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Pull prebuilt image if available
+      - name: Pull prebuilt image from GHCR
         run: |
-          set +e
           docker pull "$IMAGE_REF"
-          pull_status=$?
-          set -e
-          if [ "$pull_status" -eq 0 ]; then
-            echo "Pulled prebuilt image $IMAGE_REF"
-          else
-            echo "No prebuilt image found for $IMAGE_REF"
-          fi
 
-      - name: Build and push image when needed
+      - name: Verify prebuilt image is available
         run: |
           if ! docker image inspect "$IMAGE_REF" > /dev/null 2>&1; then
-            echo "Building image $IMAGE_REF"
-            docker build -t "$IMAGE_REF" .
-            docker push "$IMAGE_REF"
-          else
-            echo "Image $IMAGE_REF is available locally; skipping build"
+            echo "ERROR: Prebuilt image $IMAGE_REF is not available."
+            echo "Run the Docker build workflow or push an image with this tag before dispatching this workflow."
+            exit 1
           fi
 
       - name: Generate PDF
