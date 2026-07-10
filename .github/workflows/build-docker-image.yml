@@ -23,7 +23,18 @@ jobs:
       - name: Detect changed build files
         id: detect
         run: |
-          git diff --name-only ${{ github.event.before }} ${{ github.event.after }} > changed.txt || true
+          # For push events, compare before and after commits
+          # For manual triggers, rebuild everything
+          if [ -n "${{ github.event.before }}" ] && [ -n "${{ github.event.after }}" ]; then
+            git diff --name-only ${{ github.event.before }} ${{ github.event.after }} > changed.txt || true
+          else
+            # Manual trigger: check all relevant files (assume changes)
+            echo "Manual trigger detected, rebuilding all images"
+            echo "Dockerfile.base" > changed.txt
+            echo "Dockerfile.python" >> changed.txt
+            echo "pyproject.toml" >> changed.txt
+          fi
+          
           cat changed.txt
           base_changed=false
           final_needed=false
