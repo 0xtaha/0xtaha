@@ -7,6 +7,15 @@ on:
       - Dockerfile.python
       - pyproject.toml
   workflow_dispatch:
+    inputs:
+      force_rebuild:
+        description: 'Force rebuild all images'
+        required: false
+        default: 'false'
+        type: choice
+        options:
+          - 'false'
+          - 'true'
 
 jobs:
   detect-changes:
@@ -23,31 +32,42 @@ jobs:
       - name: Detect changed build files
         id: detect
         run: |
-          # For push events, compare before and after commits
-          # For manual triggers, rebuild everything
-          if [ -n "${{ github.event.before }}" ] && [ -n "${{ github.event.after }}" ]; then
-            git diff --name-only ${{ github.event.before }} ${{ github.event.after }} > changed.txt || true
-          else
-            # Manual trigger: check all relevant files (assume changes)
-            echo "Manual trigger detected, rebuilding all images"
-            echo "Dockerfile.base" > changed.txt
-            echo "Dockerfile.python" >> changed.txt
-            echo "pyproject.toml" >> changed.txt
-          fi
-          
-          cat changed.txt
           base_changed=false
           final_needed=false
-          if grep -q -x 'Dockerfile.base' changed.txt; then
+          
+          # Check if force rebuild is requested via manual trigger
+          if [ "${{ inputs.force_rebuild }}" = "true" ]; then
+            echo "Force rebuild requested"
             base_changed=true
             final_needed=true
+          else
+            if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+              # Manual trigger without force: only check last commit
+              echo "Manual trigger detected - checking last commit for changes..."
+              git diff HEAD~1..HEAD --name-only > changed.txt || true
+            else
+              # Push event: compare before and after commits
+              if [ -n "${{ github.event.before }}" ] && [ "${{ github.event.before }}" != "0000000000000000000000000000000000000000" ]; then
+                git diff --name-only ${{ github.event.before }} ${{ github.event.after }} > changed.txt || true
+              else
+                # Initial push or force push
+                git diff HEAD~1..HEAD --name-only > changed.txt || echo "" > changed.txt
+              fi
+            fi
+            
+            cat changed.txt || echo "No changes detected"
+            if grep -q -x 'Dockerfile.base' changed.txt 2>/dev/null; then
+              base_changed=true
+              final_needed=true
+            fi
+            if grep -q -x 'Dockerfile.python' changed.txt 2>/dev/null; then
+              final_needed=true
+            fi
+            if grep -q -x 'pyproject.toml' changed.txt 2>/dev/null; then
+              final_needed=true
+            fi
           fi
-          if grep -q -x 'Dockerfile.python' changed.txt; then
-            final_needed=true
-          fi
-          if grep -q -x 'pyproject.toml' changed.txt; then
-            final_needed=true
-          fi
+          
           echo "base_changed=$base_changed" >> $GITHUB_OUTPUT
           echo "final_needed=$final_needed" >> $GITHUB_OUTPUT
 
