@@ -78,5 +78,5 @@ Senior DevSecOps and platform engineer with nearly 5 years operating production,
 
 ## EDUCATION
 
-**B.Sc. Computer Engineering** — Faculty of Engineering, Benha University
+**B.Sc. Computer Engineering** — Faculty of Engineering
 *September 2016 – August 2021 · GPA 3.2 / 4.0*
