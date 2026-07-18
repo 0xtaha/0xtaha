@@ -1,6 +1,6 @@
 # TAHA ABDELAZIZ
 ### Senior DevSecOps Engineer
-*Platform Engineering · DevOps · AI-Assisted Delivery*
+*Platform Engineering · Multi-Cloud Kubernetes · DevSecOps*
 
 Email: [taha.abdalzez26@gmail.com](mailto:taha.abdalzez26@gmail.com) - [LinkedIn](https://linkedin.com/in/taha-abdelaziz/)
 
@@ -10,7 +10,7 @@ Phone: [+20 1068 394 574](tel:+201068394574) - [github](https://github.com/0xtah
 
 ## SUMMARY
 
-Senior DevSecOps Engineer with ~5 years building and securing cloud-native platforms. Designs automation solutions and AI-assisted, agentic build and release workflows that embed security by default, wiring SAST/DAST/SCA and policy-as-code into CI/CD so vulnerabilities surface at merge time. Owns secrets and identity at scale (HashiCorp Vault, IAM, Kubernetes network policies) and builds self-service platforms that take infrastructure and security off product teams' critical path.
+Senior DevSecOps and platform engineer with nearly 5 years operating production, multi-cloud Kubernetes for compliance-sensitive, multi-client deployments. Owns critical infrastructure end to end — cluster operations, GitLab CI/CD with security gates, Terraform IaC governance, secrets and identity (HashiCorp Vault, IAM, network policies), and full observability. Leads incident response from the front and follows up with systemic fixes: the engineer who walks into a P1, drives the response, and leaves the system measurably better. Bridges development, operations, and security, and mentors engineers along the way.
 
 ---
 
@@ -19,24 +19,26 @@ Senior DevSecOps Engineer with ~5 years building and securing cloud-native platf
 ### Senior DevSecOps & Build Engineer — Luxoft
 *June 2026 – Present*
 
-- Build secure CI/CD pipelines with quality gates — SAST, DAST, and automated security-best-practice checks — that enforce security and code-quality standards before merge, blocking non-compliant changes from progressing.
-- Build intelligent, AI-assisted and agentic build and release pipelines that automate build orchestration, quality checks, and release decisions with security baked into the flow.
-- Design reusable automation solutions and tooling that eliminate manual, error-prone steps across the build, packaging, and release lifecycle.
-- Design and operate a scalable build system (Bazel, CMake, Maven, Poetry, UV) with hermetic builds, dependency-graph management, and caching to accelerate delivery across teams.
-- Build and maintain secure integrations across Jira, GitHub, and codebeamer to connect delivery, tracking, and traceability without breaking data integrity.
-- Automate secure infrastructure provisioning with Terraform, baking compliance guardrails into reusable modules, and maintain Ansible roles for configuration and self-healing recovery.
-- Design and maintain OS and Docker golden images and secure, non-root, minimal base images, standardizing security compliance across environments.
+- Own the CI/CD security posture — multi-stage GitLab-style pipelines with SAST, DAST (OWASP ZAP, Burp Suite), and SCA gates, caching strategies, and artefact management that block non-compliant changes before merge.
+- Operate a scalable, multi-language build system (Bazel, CMake, Maven, Poetry, UV) with hermetic builds, dependency-graph management, and caching to accelerate delivery across teams.
+- Operate the Kubernetes / container platform and run GitOps-based deployments — automated rollouts, rollbacks, and release orchestration across environments.
+- Own observability and incident response — instrumentation, alerting, and on-call across build/release and platform services, driving issues to root-cause fixes.
+- Building an LLM-driven agentic workflow that analyses logs and alerts, investigates incidents by correlating signals across the stack, and attempts automated remediation of recurring issues.
+- Automate secure infrastructure provisioning with Terraform (reusable modules with compliance guardrails, remote state, team-wide governance) and Ansible; maintain OS/Docker golden images — non-root, minimal, standardised for security compliance.
+- Build secure integrations across Jira, GitHub, and codebeamer for delivery, tracking, and end-to-end traceability.
 
 ### Senior Platform Engineer — Orange Cyberdefense
 *January 2025 – May 2026*
 
-- Embedded SAST, secrets, and policy-as-code scanning into CI/CD (Semgrep, SonarQube, Gitleaks, OPA/Conftest), surfacing vulnerabilities at merge time and blocking insecure changes before they reached production.
+- Operated and continuously improved a multi-cloud Kubernetes estate (EKS, AKS, GKE, self-managed/on-prem) — hundreds of clusters serving single-tenant, per-client deployments with strict compliance and data-residency requirements — RBAC, network policies, Helm, HPA, pod disruption budgets, and day-2 operations at scale.
+- Ran GitOps through ArgoCD with canary and blue/green rollouts, disruption-aware deployments, and automated rollbacks; extended Kubernetes with custom operators and controllers.
+- Embedded SAST, secrets, and policy-as-code scanning into CI/CD (Semgrep, SonarQube, Gitleaks, OPA/Conftest), surfacing vulnerabilities at merge time and blocking insecure changes before production.
 - Owned platform security end to end: IAM, secrets in HashiCorp Vault, Kubernetes network policies, and automated compliance scanning across cloud and on-prem.
-- Built the self-service provisioning flow (secure environment setup, database registration, deployment) that took infrastructure off the critical path for product teams.
-- Brought Terraform IaC to full coverage on Azure and GCP with zero config drift between dev, staging, and production.
-- Extended Kubernetes with custom operators and controllers, and ran GitOps through ArgoCD with canary and blue/green rollouts and automated rollbacks.
-- Designed the HA architecture (active-active, circuit breakers, retries, bulkhead isolation) and validated disaster recovery against committed RPO/RTO targets.
-- Instrumented metrics, logs, and tracing (Prometheus, ELK, OpenTelemetry) across 100+ services, giving on-call teams unified production visibility.
+- Brought Terraform IaC to full coverage on Azure and GCP — module design, remote backends, state management — with zero config drift between dev, staging, and production.
+- Built the self-service provisioning flow (secure environment setup, database registration, deployment) that took infrastructure off product teams' critical path — cutting environment setup from 2–3 days to under 10 minutes.
+- Designed the HA architecture (active-active, circuit breakers, retries, bulkhead isolation) and validated disaster recovery against committed RPO/RTO targets, reducing production outages 72%.
+- Instrumented metrics, logs, and distributed tracing (Prometheus, Grafana, Loki, Tempo, OpenTelemetry, ELK) across 100+ services, giving on-call teams unified production visibility.
+- Mentored 5 mid-level engineers and set platform standards across the division.
 
 > **Monitoring Platform Excellence Award** — for the division-wide platform build.
 
@@ -44,10 +46,10 @@ Senior DevSecOps Engineer with ~5 years building and securing cloud-native platf
 *June 2023 – December 2024*
 
 - Wrote Python and Go backend services for cybersecurity monitoring, serving 100+ enterprise clients.
-- Standardized CI/CD pipelines with automated tests and quality gates, cutting deployment failures and tightening release cycles.
-- Carried on-call across app, platform, and infra layers, resolving production incidents and driving post-mortem fixes to closure.
+- Standardised CI/CD pipelines with automated tests and quality gates, cutting deployment failures and tightening release cycles.
+- Carried on-call across app, platform, and infra layers — P1/P2 escalation, root-cause analysis, and post-incident reviews driven to closure.
 - Added health checks, liveness/readiness probes, and graceful shutdown to contain failures and prevent cascading outages.
-- Standardized infrastructure with Ansible playbooks and Terraform modules across all environments, and built secure integrations into Jira, ServiceNow, codebeamer, and Slack.
+- Standardised infrastructure with Ansible playbooks and Terraform modules across all environments; built secure integrations into Jira, ServiceNow, codebeamer, and Slack.
 
 > **Change Maker Award** — for rapid delivery of the CyberSecure initiative.
 
@@ -62,14 +64,15 @@ Senior DevSecOps Engineer with ~5 years building and securing cloud-native platf
 
 ## SKILLS
 
+- **Kubernetes & Orchestration:** Multi-cloud Kubernetes (EKS, AKS, self-managed/on-prem), RBAC, network policies, Helm, HPA, pod disruption budgets, day-2 operations at scale, custom operators/controllers, Kustomize, GitOps (ArgoCD), canary & blue/green rollouts, automated rollbacks
+- **Cloud & Networking:** AWS, Azure, GCP — multi-account architecture, IAM, VPC design, VPN, load balancers, DNS, cloud security best practices
+- **CI/CD:** GitLab CI/CD (complex multi-stage pipelines, security gates, caching strategies, artefact management), GitHub Actions
+- **Infrastructure as Code:** Terraform / OpenTofu (module design, state management, remote backends, team-wide governance), Ansible
+- **Security & DevSecOps:** vulnerability scanning, SAST, DAST (OWASP ZAP, Burp Suite), SCA, secrets management (HashiCorp Vault / OpenBao), IAM, policy-as-code (OPA/Conftest), Kubernetes network policies, DevSecOps integration, secure/hardened images, supply-chain security, compliance frameworks
+- **Observability:** Prometheus, Grafana, Loki, Tempo, OpenTelemetry, ELK — monitoring, alerting, distributed tracing
+- **Reliability & Incident Management:** on-call rotations, P1/P2 escalation, root cause analysis, post-incident reviews, high availability & DR (RPO/RTO), event-driven architecture
 - **Languages & Scripting:** Python (automation, tooling, backend services), Go, Bash
-- **DevSecOps & Security:** SAST, DAST, SCA, HashiCorp Vault, IAM, Policy as Code, Kubernetes Network Policies, secrets management, secure/hardened images, supply-chain security
-- **DevOps & CI/CD:** Terraform, Ansible, GitLab CI, GitHub Actions, ArgoCD, Helm, Kustomize
-- **Containers & Orchestration:** Kubernetes (GKE, on-premise), Docker, custom operators/controllers
-- **Cloud, Data & Networking:** Azure, GCP, AWS, PostgreSQL, MongoDB, Apache Kafka, RabbitMQ, NATS, NGINX, HAProxy
-- **Monitoring & Observability:** Prometheus, Grafana, OpenTelemetry, ELK
-- **AI & Automation:** AI-assisted & agentic build/release workflows, LLM-driven pipeline automation, Python automation tooling, systems integration (Jira, GitHub, codebeamer)
-- **Practices:** GitOps, Infrastructure as Code, incident response & on-call, high availability & DR, event-driven architecture
+- **AI & Automation:** AI-assisted & agentic build/release workflows, LLM-driven pipeline automation, systems integration (Jira, GitHub, codebeamer)
 
 ---
 
