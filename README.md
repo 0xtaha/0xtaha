@@ -23,12 +23,9 @@ Senior DevSecOps and platform engineer with nearly 5 years operating production,
 
 - Design, implement, and maintain secure CI/CD , CI/CT with multi-stage pipelines with Quality Gates, SAST, DAST (automated OWASP ZAP, Burp Suite), SCA, and supply-chain gates.
 - Develop and maintain agent orchestration pipelines, including prompt engineering, tool integration, and evaluation frameworks.
-- Build and deploy AI agents that automate security workflows, threat detection, alert triage, incident response, risk assessment, and compliance monitoring
-- Integrate large language models and other AI/ML capabilities with security tooling (SIEM, EDR, SOAR, cloud security platforms) 
 - Work closely with development, operations, and security teams to integrate security tools and best practices into the software development lifecycle.
 - Automate infrastructure deployment using Infrastructure as Code (IaC)  while maintaining security and scalability.
 - Develop and enforce **security policies** and ensure continuous monitoring of vulnerabilities and risks in the systems.
-- Manage and secure cloud infrastructure (Azure, or GCCH) to optimize performance and compliance.
 - Collaborate with the security team to perform threat modeling and risk assessments, and address identified vulnerabilities and agentic AI security policy, standards, and technical guidance.
 - Monitor systems, logs, and events to detect security threats, misconfigurations, and other operational or security issues.
 - Create technical documentation and workflows for DevOps processes and security implementations.
