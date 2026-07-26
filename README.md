@@ -12,7 +12,7 @@ Location: Cairo, Egypt · Open to EU relocation (visa sponsorship required)
 
 ## SUMMARY
 
-Senior DevSecOps and platform engineer with nearly 5 years operating production, multi-cloud Kubernetes for compliance-sensitive, multi-client deployments. Owns critical infrastructure end to end, cluster operations, GitLab CI/CD with security gates, Terraform IaC governance, secrets and identity (HashiCorp Vault, IAM, network policies), and full observability. Leads incident response from the front and follows up with systemic fixes: the engineer who walks into a P1, drives the response, and leaves the system measurably better. Bridges development, operations, and security, and mentors engineers along the way.
+Senior DevSecOps and platform engineer with nearly 5 years operating production, multi-cloud Kubernetes for compliance-sensitive, multi-client deployments. Owns critical infrastructure end to end, cluster operations, GitLab CI/CD with security gates, Terraform IaC governance, secrets and identity (HashiCorp Vault, IAM, network policies), and full observability. Bridges development, operations, and security, and mentors engineers along the way.
 
 ---
 
