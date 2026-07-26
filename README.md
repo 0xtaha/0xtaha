@@ -18,28 +18,45 @@ Senior DevSecOps and platform engineer with nearly 5 years operating production,
 
 ## EXPERIENCE
 
-### Senior DevSecOps & Build Engineer — Luxoft
+### Senior DevSecOps Engineer — Luxoft
 *June 2026 – Present*
 
-- Owned the CI/CD/CT with multi-stage pipelines with Quality Gates, SAST, DAST (automated OWASP ZAP, Burp Suite), SCA, and supply-chain gates (image scanning with Trivy, artifact signing with Cosign, SBOMs via Syft) that block non-compliant changes before merge.
+- Design, implement, and maintain secure CI/CD , CI/CT with multi-stage pipelines with Quality Gates, SAST, DAST (automated OWASP ZAP, Burp Suite), SCA, and supply-chain gates.
+- Work closely with development, operations, and security teams to integrate security tools and best practices into the software development lifecycle.
+- Automate infrastructure deployment using Infrastructure as Code (IaC)  while maintaining security and scalability.
+- Develop and enforce **security policies** and ensure continuous monitoring of vulnerabilities and risks in the systems.
+- Manage and secure cloud infrastructure (Azure, or GCCH) to optimize performance and compliance.
+- Collaborate with the security team to perform threat modeling and risk assessments, and address identified vulnerabilities.
+- Monitor systems, logs, and events to detect security threats, misconfigurations, and other operational or security issues.
+- Create technical documentation and workflows for DevOps processes and security implementations.
+- Provide mentorship and promote secure DevOps best practices across development and operations teams.
 - Operate a scalable, multi-language build system (Bazel, CMake, Maven, Poetry, UV) with hermetic builds, dependency-graph management, and caching to accelerate delivery across projects and teams.
-- Own observability and incident response — instrumentation, alerting, and on-call across build/release and platform services, driving issues to root-cause fixes.
-- Building an LLM-driven agentic workflow that analyses logs and alerts, investigates incidents by correlating signals across the stack, and attempts automated remediation of recurring issues.
-- Automate secure infrastructure provisioning with Terraform (reusable modules with compliance guardrails, remote state, team-wide governance) and Ansible; maintain OS/Docker golden images — non-root, minimal, standardised for security compliance.
+- Manage and secure cloud infrastructure Azure to optimize performance and compliance.
+- Provide mentorship and promote secure DevOps best practices across development and operations teams.
 - Build secure integrations across Jira, GitHub, and codebeamer for delivery, tracking, and end-to-end traceability.
 
 ### Senior Platform Engineer — Orange Cyberdefense
 *January 2025 – May 2026*
 
-- Operated and continuously improved a multi-cloud Kubernetes estate (EKS, AKS, GKE, self-managed/on-prem on VMware vSphere).
-- Ran GitOps through ArgoCD with canary and blue/green rollouts, disruption-aware deployments, and automated rollbacks; extended Kubernetes with custom operators and controllers.
-- Embedded SAST, secrets, and policy-as-code scanning into CI/CD (Semgrep, SonarQube, Gitleaks, OPA/Conftest), surfacing vulnerabilities at merge time and blocking insecure changes before production.
-- Owned platform Deployment and Security end to end: IAM, secrets in HashiCorp Vault, Kubernetes, and automated compliance scanning across cloud and on-prem.
-- Brought Terraform IaC to full coverage on Azure and GCP — module design, remote backends, state management — with zero config drift between dev, staging, and production.
-- Built the self-service provisioning flow (secure environment setup, database registration, deployment) that took infrastructure off product teams' critical path — cutting environment setup from 2–3 days to under 10 minutes.
-- Designed the HA architecture (active-active, circuit breakers, retries, bulkhead isolation) and validated disaster recovery against committed RPO/RTO targets, reducing production outages 72%.
-- Instrumented metrics, logs, and distributed tracing (Prometheus, Grafana, Loki, Tempo, OpenTelemetry, ELK) across 100+ services, giving on-call teams unified production visibility.
-- Mentored 5 mid-level engineers and set platform standards across the division.
+- Iteratively design and develop scalable, resilient, and efficient platform solutions using cloud services and modern software design frameworks.
+- Create modular, reusable infrastructure using Terraform and related tools.
+- Partner interdepartmentally and cross-functionally to strengthen DevOps practices through automation.
+- Architect, develop, and maintain CI/CD pipelines for platform functions and customer needs at scale.
+- Deliver solutions based on event-driven, object-oriented, and functional design patterns.
+- Own the design and implementation of monitoring and logging solutions to ensure reliability and performance.
+- Support the definition and maintenance of a lifecycle process for platform systems to ensure updates, patches, and security compliance.
+- Apply deep expertise in platform engineering while leveraging cross-disciplinary knowledge to drive effective collaboration across development, operations, and security teams.
+- Resolve cloud infrastructure issues quickly, analyze performance, and implement improvements.
+- Analyze system performance and implement optimizations to improve speed, efficiency, and resource utilization.
+- Anticipate and plan infrastructure scaling to meet the growing needs of the business.
+- Apply a security-first approach, ensuring SOC, SOC2, HIPAA, NIST, and regulatory requirements are met.
+- Implement and manage IAM, firewalls, and SIEM solutions.
+- Integrate diverse and non-traditional systems to deliver practical, forward-thinking outcomes.
+- Navigate challenges creatively and find effective solutions when conventional approaches fall short
+- Lead assigned projects, driving cross-team collaboration, execution delivery, and accountability.
+- Write clean, efficient, and well-documented code while following best practices and established development standards.
+- Take part in the on-call rotation to ensure the reliability and availability of platform services.
+- Leverage generative AI tools such as Claude and Copilot to streamline workflows, enhance productivity, improve solution quality, and accelerate delivery of business outcomes
 
 > **Monitoring Platform Excellence Award** — for the division-wide platform build.
 
