@@ -69,7 +69,7 @@ Senior DevSecOps and platform engineer with nearly 5 years operating production,
 - Added health checks, liveness/readiness probes, and graceful shutdown to contain failures and prevent cascading outages.
 - Standardised infrastructure with Ansible playbooks and Terraform modules across all environments; built secure integrations into Jira, ServiceNow, codebeamer, and Slack.
 - Added RPAC and Authentication flows using OpenID and SAML to multible platforms.
-- Developed Backends and ETL solutions for ingesting and processing large amount of data
+- Developed backends and ETL solutions for ingesting and processing large amount of data
 
 > **Change Maker Award** — for rapid delivery of the CyberSecure initiative.
 
@@ -85,7 +85,7 @@ Senior DevSecOps and platform engineer with nearly 5 years operating production,
 ## SKILLS
 
 - Proficiency in scripting and development using Python, Bash, and Go for automation.
-- skilled in using ansible for automating configration managment, terraform for man 
+- skilled in using ansible for automating configration managment, terraform for manging cloud resources
 - Thorough understanding of containerization and orchestration technologies (e.g., Docker, Kubernetes).
 - Knowledge of application security principles, including OWASP Top 10 and security testing methods.
 - Familiarity with version control tools like Git and Git workflows.
