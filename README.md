@@ -22,11 +22,14 @@ Senior DevSecOps and platform engineer with nearly 5 years operating production,
 *June 2026 – Present*
 
 - Design, implement, and maintain secure CI/CD , CI/CT with multi-stage pipelines with Quality Gates, SAST, DAST (automated OWASP ZAP, Burp Suite), SCA, and supply-chain gates.
+- Develop and maintain agent orchestration pipelines, including prompt engineering, tool integration, and evaluation frameworks.
+- Build and deploy AI agents that automate security workflows, threat detection, alert triage, incident response, risk assessment, and compliance monitoring
+- Integrate large language models and other AI/ML capabilities with security tooling (SIEM, EDR, SOAR, cloud security platforms) 
 - Work closely with development, operations, and security teams to integrate security tools and best practices into the software development lifecycle.
 - Automate infrastructure deployment using Infrastructure as Code (IaC)  while maintaining security and scalability.
 - Develop and enforce **security policies** and ensure continuous monitoring of vulnerabilities and risks in the systems.
 - Manage and secure cloud infrastructure (Azure, or GCCH) to optimize performance and compliance.
-- Collaborate with the security team to perform threat modeling and risk assessments, and address identified vulnerabilities.
+- Collaborate with the security team to perform threat modeling and risk assessments, and address identified vulnerabilities and agentic AI security policy, standards, and technical guidance.
 - Monitor systems, logs, and events to detect security threats, misconfigurations, and other operational or security issues.
 - Create technical documentation and workflows for DevOps processes and security implementations.
 - Provide mentorship and promote secure DevOps best practices across development and operations teams.
@@ -84,15 +87,12 @@ Senior DevSecOps and platform engineer with nearly 5 years operating production,
 
 ## SKILLS
 
-- **Kubernetes & Orchestration:** Multi-cloud Kubernetes (EKS, AKS, self-managed/on-prem), RBAC, network policies, Helm, HPA, pod disruption budgets, day-2 operations at scale, custom operators/controllers, Kustomize, GitOps (ArgoCD), canary & blue/green rollouts, automated rollbacks
-- **Cloud & Networking:** AWS, Azure, GCP, VMware vSphere — multi-account architecture, virtualization & VM lifecycle, IAM, VPC design, VPN, load balancers, DNS, network protocols (TCP/IP, TLS/mTLS, HTTP/gRPC), cloud & network security best practices
-- **CI/CD:** GitLab CI/CD (complex multi-stage pipelines, security gates, caching strategies, artefact management), GitHub Actions
-- **Infrastructure as Code:** Terraform / OpenTofu (module design, state management, remote backends, team-wide governance), Ansible
-- **Security & DevSecOps:** vulnerability scanning, SAST, DAST (automated OWASP ZAP, Burp Suite), SCA, secrets management (HashiCorp Vault / OpenBao), IAM, policy-as-code (OPA/Conftest), Kubernetes network policies, DevSecOps integration, secure/hardened images, supply-chain security (Trivy, Grype, Cosign, Syft/SBOM), GDPR compliance
-- **Observability:** Prometheus, Grafana, Loki, Tempo, OpenTelemetry, ELK — monitoring, alerting, distributed tracing
-- **Reliability & Incident Management:** on-call rotations, P1/P2 escalation, root cause analysis, post-incident reviews, high availability & DR (RPO/RTO), event-driven architecture
-- **Languages & Scripting:** Python (automation, tooling, backend services), Go, Bash
-- **AI & Automation:** LLM-driven agentic workflows (log/alert analysis, automated incident remediation), AI-assisted build/release pipelines, systems integration (Jira, GitHub, codebeamer)
+- Proficiency in scripting and development using Python, Bash, and Go for automation.
+- skilled in using ansible for automating configration managment, terraform for man 
+- Thorough understanding of containerization and orchestration technologies (e.g., Docker, Kubernetes).
+- Knowledge of application security principles, including OWASP Top 10 and security testing methods.
+- Familiarity with version control tools like Git and Git workflows.
+- Excellent problem-solving, collaboration, and communication skills.
 
 ---
 
