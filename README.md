@@ -10,96 +10,48 @@ Location: Cairo, Egypt · Open to EU relocation
 
 ---
 
-## SUMMARY
+## Summary
+Senior DevSecOps and Platform Engineer with nearly 6 years of experience operating production, Air gapped environments for compliance-sensitive deployments. Owns critical infrastructure end-to-end, cluster operations, GitLab CI/CD with security gates, Terraform IaC governance, and full observability. Bridges development, operations, and security while mentoring engineers to promote shift-left methodologies.
 
-Senior DevSecOps and platform engineer with nearly 5 years operating production, multi-cloud Kubernetes for compliance-sensitive, multi-client deployments. Owns critical infrastructure end to end, cluster operations, GitLab CI/CD with security gates, Terraform IaC governance, secrets and identity (HashiCorp Vault, IAM, network policies), and full observability. Bridges development, operations, and security, and mentors engineers along the way.
+## Technical Skills
 
----
+* **DevOps:** Skilled in automating configuration management with Ansible, managing infrastructure via Terraform, and engineering robust CI/CD pipelines with integrated DevSecOps tooling (SAST, DAST, SCA). Thorough understanding of containerization, orchestration (Docker, Kubernetes), and policy-as-code using hashicorp sentinel to enforce shift-left security.
+* **Backend:** Proficient in scripting and backend development using Python, Bash, and Go. Knowledgeable in application security principles (OWASP Top 10), automated vulnerability testing, and integrating secure identity flows (HashiCorp Vault, IAM, OIDC, SAML).
 
-## EXPERIENCE
+## Experience
 
-### Senior DevSecOps Engineer — Luxoft
+### Senior DevSecOps Engineer — Confidential Employer
 *June 2026 – Present*
-
-- Design, implement, and maintain secure CI/CD , CI/CT with multi-stage pipelines with Quality Gates, SAST, DAST (automated OWASP ZAP, Burp Suite), SCA, and supply-chain gates.
-- Develop and maintain agent orchestration pipelines, including prompt engineering, tool integration, and evaluation frameworks.
-- Work closely with development, operations, and security teams to integrate security tools and best practices into the software development lifecycle.
-- Automate infrastructure deployment using Infrastructure as Code (IaC)  while maintaining security and scalability.
-- Develop and enforce **security policies** and ensure continuous monitoring of vulnerabilities and risks in the systems.
-- Collaborate with the security team to perform threat modeling and risk assessments, and address identified vulnerabilities and agentic AI security policy, standards, and technical guidance.
-- Monitor systems, logs, and events to detect security threats, misconfigurations, and other operational or security issues.
-- Create technical documentation and workflows for DevOps processes and security implementations.
-- Provide mentorship and promote secure DevOps best practices across development and operations teams.
-- Operate a scalable, multi-language build system (Bazel, CMake, Maven, Poetry, UV) with hermetic builds, dependency-graph management, and caching to accelerate delivery across projects and teams.
-- Manage and secure cloud infrastructure Azure to optimize performance and compliance.
-- Provide mentorship and promote secure DevOps best practices across development and operations teams.
-- Build secure integrations across Jira, GitHub, and codebeamer for delivery, tracking, and end-to-end traceability.
+* Designed and implemented secure, multi-stage CI/CD pipelines incorporating automated Quality Gates, SAST, DAST (OWASP ZAP, Burp Suite), and SCA to enforce a shift-left security posture.
+* Managed scalable infrastructure and container orchestration utilizing Terraform, Docker, and Kubernetes, delivering automated deployments via GitOps workflows.
+* Championed TestOps initiatives to support the QA engineering team, automating test environment provisioning and seamlessly integrating testing frameworks into the CI/CD pipeline.
+* Secured software supply chains for hybrid and multi-tenant deployments by implementing SBOM, Cosign, and policy-as-code (OPA/Gatekeeper).
 
 ### Senior Platform Engineer — Orange Cyberdefense
 *January 2025 – May 2026*
-
-- Iteratively design and develop scalable, resilient, and efficient platform solutions using cloud services and modern software design frameworks.
-- Create modular, reusable infrastructure using Terraform and related tools.
-- Partner interdepartmentally and cross-functionally to strengthen DevOps practices through automation.
-- Architect, develop, and maintain CI/CD pipelines for platform functions and customer needs at scale.
-- Deliver solutions based on event-driven, object-oriented, and functional design patterns.
-- Own the design and implementation of monitoring and logging solutions to ensure reliability and performance.
-- Support the definition and maintenance of a lifecycle process for platform systems to ensure updates, patches, and security compliance.
-- Apply deep expertise in platform engineering while leveraging cross-disciplinary knowledge to drive effective collaboration across development, operations, and security teams.
-- Resolve cloud infrastructure issues quickly, analyze performance, and implement improvements.
-- Analyze system performance and implement optimizations to improve speed, efficiency, and resource utilization.
-- Anticipate and plan infrastructure scaling to meet the growing needs of the business.
-- Apply a security-first approach, ensuring SOC, SOC2, HIPAA, NIST, and regulatory requirements are met.
-- Implement and manage IAM, firewalls, and SIEM solutions.
-- Integrate diverse and non-traditional systems to deliver practical, forward-thinking outcomes.
-- Navigate challenges creatively and find effective solutions when conventional approaches fall short
-- Lead assigned projects, driving cross-team collaboration, execution delivery, and accountability.
-- Write clean, efficient, and well-documented code while following best practices and established development standards.
-- Take part in the on-call rotation to ensure the reliability and availability of platform services.
-- Leverage generative AI tools such as Claude and Copilot to streamline workflows, enhance productivity, improve solution quality, and accelerate delivery of business outcomes
-
-> **Monitoring Platform Excellence Award** — for the division-wide platform build.
+* Architected and deployed scalable, event-driven infrastructure solutions using modular Terraform, significantly improving platform resilience.
+* Engineered and maintained comprehensive observability and logging platforms, earning the **Monitoring Platform Excellence Award** for a division-wide deployment.
+* Enforced a security-first infrastructure environment by managing IAM, firewalls, and SIEM solutions, ensuring strict compliance with SOC 2, HIPAA, and NIST.
+* Led the development of automated, large-scale CI/CD pipelines, collaborating cross-functionally to accelerate delivery timelines.
 
 ### Mid-level Software Engineer — Orange Cyberdefense
 *June 2023 – December 2024*
-
-- Wrote Python and Go backend services for cybersecurity monitoring, serving 100+ enterprise clients.
-- Standardised CI/CD pipelines with automated tests and quality gates, cutting deployment failures roughly in half and tightening release cadence from weekly to near-daily.
-- Carried on-call across app, platform, and infra layers — triaging ~15–25 P1/P2 incidents a quarter with root-cause analysis and post-incident reviews driven to closure.
-- Added health checks, liveness/readiness probes, and graceful shutdown to contain failures and prevent cascading outages.
-- Standardised infrastructure with Ansible playbooks and Terraform modules across all environments; built secure integrations into Jira, ServiceNow, codebeamer, and Slack.
-- Added RPAC and Authentication flows using OpenID and SAML to multible platforms.
-- Developed backends and ETL solutions for ingesting and processing large amount of data
-
-> **Change Maker Award** — for rapid delivery of the CyberSecure initiative.
+* Developed high-performance Python and Go backend services alongside ETL data processing pipelines for cybersecurity monitoring, serving 100+ enterprise clients.
+* Standardized CI/CD pipelines with automated tests and quality gates, reducing deployment failures by approximately 50%.
+* Fortified application reliability by implementing comprehensive health checks, liveness/readiness probes, and graceful shutdown mechanisms.
+* **Change Maker Award** — recognized for the rapid delivery and execution of the CyberSecure initiative.
 
 ### Junior Software Engineer — Elsewedy Electric
 *October 2021 – May 2023*
+* Spearheaded the introduction of Terraform IaC standards on GCP, establishing reproducible deployments and eliminating recurring environment inconsistencies.
+* Designed and built custom full-stack applications to support industrial-scale IoT device workflows.
+* Maintained robust CI/CD pipelines ensuring seamless deployments and high availability across backend and frontend environments.
 
-- Introduced Terraform IaC standards on GCP, making deployments reproducible and eliminating recurring environment inconsistencies.
-- Worked on Building custome Full stack solutions 
-- Built and maintained backend and frontend apps for industrial-scale IoT device workflows, keeping CI/CD pipelines running across environments.
-
----
-
-## SKILLS
-
-- Proficiency in scripting and development using Python, Bash, and Go for automation.
-- skilled in using ansible for automating configration managment, terraform for manging cloud resources
-- Thorough understanding of containerization and orchestration technologies (e.g., Docker, Kubernetes).
-- Knowledge of application security principles, including OWASP Top 10 and security testing methods.
-- Familiarity with version control tools like Git and Git workflows.
-- Excellent problem-solving, collaboration, and communication skills.
-
----
-
-## EDUCATION
-
+## Education
 **B.Sc. Computer Engineering** — Faculty of Engineering, Benha University
-*September 2016 – August 2021 · GPA 3.2 / 4.0*
+*September 2016 – August 2021*
 
 ---
-
 ## LANGUAGES
 
 English (fluent) · Arabic (native) · Spanish & German (in progress)
