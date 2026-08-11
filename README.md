@@ -22,30 +22,34 @@ Senior DevSecOps and Platform Engineer with nearly 6 years of experience operati
 
 ### Senior DevSecOps Engineer — Confidential Employer
 *June 2026 – Present*
-* Designed and implemented secure, multi-stage CI/CD pipelines incorporating automated Quality Gates, SAST, DAST (OWASP ZAP, Burp Suite), and SCA to enforce a shift-left security posture.
-* Managed scalable infrastructure and container orchestration utilizing Terraform, Docker, and Kubernetes, delivering automated deployments via GitOps workflows.
-* Championed TestOps initiatives to support the QA engineering team, automating test environment provisioning and seamlessly integrating testing frameworks into the CI/CD pipeline.
-* Secured software supply chains for hybrid and multi-tenant deployments by implementing SBOM, Cosign, and policy-as-code (OPA/Gatekeeper).
+
+- Designed and implemented secure, multi-stage CI/CD pipelines incorporating automated Quality Gates, SAST, DAST (OWASP ZAP, Burp Suite), and SCA to enforce a shift-left security posture.
+- Managed scalable infrastructure and container orchestration utilizing Terraform, Docker, and Kubernetes, delivering automated deployments via GitOps workflows.
+- Championed TestOps initiatives to support the QA engineering team, automating test environment provisioning and seamlessly integrating testing frameworks into the CI/CD pipeline.
+- Secured software supply chains for hybrid and multi-tenant deployments by implementing SBOM, Cosign, and policy-as-code (OPA/Gatekeeper).
 
 ### Senior Platform Engineer — Orange Cyberdefense
 *January 2025 – May 2026*
-* Architected and deployed scalable, event-driven infrastructure solutions using modular Terraform, significantly improving platform resilience.
-* Engineered and maintained comprehensive observability and logging platforms, earning the **Monitoring Platform Excellence Award** for a division-wide deployment.
-* Enforced a security-first infrastructure environment by managing IAM, firewalls, and SIEM solutions, ensuring strict compliance with SOC 2, HIPAA, and NIST.
-* Led the development of automated, large-scale CI/CD pipelines, collaborating cross-functionally to accelerate delivery timelines.
+
+- Architected and deployed scalable, event-driven infrastructure solutions using modular Terraform, significantly improving platform resilience.
+- Engineered and maintained comprehensive observability and logging platforms, earning the **Monitoring Platform Excellence Award** for a division-wide deployment.
+- Enforced a security-first infrastructure environment by managing IAM, firewalls, and SIEM solutions, ensuring strict compliance with SOC 2, HIPAA, and NIST.
+- Led the development of automated, large-scale CI/CD pipelines, collaborating cross-functionally to accelerate delivery timelines.
 
 ### Mid-level Software Engineer — Orange Cyberdefense
 *June 2023 – December 2024*
-* Developed high-performance Python and Go backend services alongside ETL data processing pipelines for cybersecurity monitoring, serving 100+ enterprise clients.
-* Standardized CI/CD pipelines with automated tests and quality gates, reducing deployment failures by approximately 50%.
-* Fortified application reliability by implementing comprehensive health checks, liveness/readiness probes, and graceful shutdown mechanisms.
-* **Change Maker Award** — recognized for the rapid delivery and execution of the CyberSecure initiative.
+
+- Developed high-performance Python and Go backend services alongside ETL data processing pipelines for cybersecurity monitoring, serving 100+ enterprise clients.
+- Standardized CI/CD pipelines with automated tests and quality gates, reducing deployment failures by approximately 50%.
+- Fortified application reliability by implementing comprehensive health checks, liveness/readiness probes, and graceful shutdown mechanisms.
+- **Change Maker Award** — recognized for the rapid delivery and execution of the CyberSecure initiative.
 
 ### Junior Software Engineer — Elsewedy Electric
 *October 2021 – May 2023*
-* Spearheaded the introduction of Terraform IaC standards on GCP, establishing reproducible deployments and eliminating recurring environment inconsistencies.
-* Designed and built custom full-stack applications to support industrial-scale IoT device workflows.
-* Maintained robust CI/CD pipelines ensuring seamless deployments and high availability across backend and frontend environments.
+
+- Spearheaded the introduction of Terraform IaC standards on GCP, establishing reproducible deployments and eliminating recurring environment inconsistencies.
+- Designed and built custom full-stack applications to support industrial-scale IoT device workflows.
+- Maintained robust CI/CD pipelines ensuring seamless deployments and high availability across backend and frontend environments.
 
 ## Education
 **B.Sc. Computer Engineering** — Faculty of Engineering, Benha University
