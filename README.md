@@ -3,11 +3,8 @@
 *Platform Engineering · Multi-Cloud Kubernetes · DevSecOps*
 
 Email: [taha.abdalzez26@gmail.com](mailto:taha.abdalzez26@gmail.com) - [LinkedIn](https://linkedin.com/in/taha-abdelaziz/)
-
 Phone: [+20 1068 394 574](tel:+201068394574) - [github](https://github.com/0xtaha)
-
 Location: Cairo, Egypt · Open to EU relocation
-
 ---
 
 ## Summary
@@ -57,8 +54,8 @@ Senior DevSecOps and Platform Engineer with nearly 6 years of experience operati
 ## Education
 **B.Sc. Computer Engineering** — Faculty of Engineering, Benha University
 *September 2016 – August 2021*
-
 ---
+
 ## LANGUAGES
 
 English (fluent) · Arabic (native) · Spanish & German (in progress)
