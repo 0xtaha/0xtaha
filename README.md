@@ -2,9 +2,9 @@
 ### Senior DevSecOps Engineer
 *Platform Engineering · Multi-Cloud Kubernetes · DevSecOps*
 
-Email: [taha.abdalzez26@gmail.com](mailto:taha.abdalzez26@gmail.com) - [LinkedIn](https://linkedin.com/in/taha-abdelaziz/)
-Phone: [+20 1068 394 574](tel:+201068394574) - [github](https://github.com/0xtaha)
-Location: Cairo, Egypt · Open to EU relocation
+- Email: [taha.abdalzez26@gmail.com](mailto:taha.abdalzez26@gmail.com) - [LinkedIn](https://linkedin.com/in/taha-abdelaziz/)
+- Phone: [+20 1068 394 574](tel:+201068394574) - [github](https://github.com/0xtaha)
+- Location: Cairo, Egypt · Open to EU relocation
 ---
 
 ## Summary
