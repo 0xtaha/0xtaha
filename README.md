@@ -15,8 +15,8 @@ Senior DevSecOps and Platform Engineer with nearly 6 years of experience operati
 
 ## Technical Skills
 
-* **DevOps:** Skilled in automating configuration management with Ansible, managing infrastructure via Terraform, and engineering robust CI/CD pipelines with integrated DevSecOps tooling (SAST, DAST, SCA). Thorough understanding of containerization, orchestration (Docker, Kubernetes), and policy-as-code using hashicorp sentinel to enforce shift-left security.
-* **Backend:** Proficient in scripting and backend development using Python, Bash, and Go. Knowledgeable in application security principles (OWASP Top 10), automated vulnerability testing, and integrating secure identity flows (HashiCorp Vault, IAM, OIDC, SAML).
+* **DevOps:** Skilled in automating configuration management with Ansible, managing infrastructure via Terraform, and engineering robust CI/CD pipelines with integrated DevSecOps tooling (SAST, DAST, SCA). Thorough understanding of containerization, orchestration (Docker, Kubernetes), and policy-as-code using HashiCorp Sentinel to enforce shift-left security. Proficient in designing comprehensive observability and telemetry architectures utilizing Prometheus, Grafana, Alertmanager, Grafana OnCall, OpenTelemetry (Collector + SDKs), Jaeger, Tempo, ELK Stack (Elasticsearch, Logstash, Kibana), Loki, Graylog, Splunk, and Zabbix, incorporating distributed tracing, APM, Four Golden Signals, and Log Lifecycle Management (ILM).
+* **Backend:** Proficient in scripting and backend development using Python, Bash, and Go. Knowledgeable in application security principles (OWASP Top 10), automated vulnerability testing, and integrati
 
 ## Experience
 
